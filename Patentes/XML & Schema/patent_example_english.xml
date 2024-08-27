@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publications xmlns="v1.publication-import.base-uk.pure.atira.dk" xmlns:ns2="v3.commons.pure.atira.dk">
+    <patent id="19125645" subType="patent">
+        <peerReviewed>false</peerReviewed>
+        <publicationStatuses>
+            <publicationStatus>
+                <statusType>published</statusType>
+                <date>
+                    <ns2:year>2016</ns2:year>
+                    <ns2:month>1</ns2:month>
+                    <ns2:day>21</ns2:day>
+                </date>
+            </publicationStatus>
+        </publicationStatuses>
+        <language>en_GB</language>
+        <title>
+            <ns2:text lang="en" country="GB">Drug selection for breast cancer therapy using antibody-based arrays</ns2:text>
+        </title>
+        <abstract>
+            <ns2:text lang="en" country="GB">The present invention provides compositions and methods for detecting the activation states of components of signal transduction pathways in tumor cells. Information on the activation states of components of signal transduction 5 pathways derived from use of the invention can be used for cancer diagnosis, prognosis, and in the design of cancer treatments.</ns2:text>
+        </abstract>
+        <persons>
+            <author>
+                <role>inventor</role>
+                <person>
+                    <firstName>SHARAT</firstName>
+                    <lastName>SINGH</lastName>
+                </person>
+            </author>
+            <author>
+                <role>inventor</role>
+                <person>
+                    <firstName>JEANNE</firstName>
+                    <lastName>HARVEY</lastName>
+                </person>
+            </author>
+            <author>
+                <role>inventor</role>
+                <person>
+                    <firstName>PHILLIP</firstName>
+                    <lastName>KIM</lastName>
+                </person>
+            </author>
+            <author>
+                <role>inventor</role>
+                <person>
+                    <firstName>XINJUN</firstName>
+                    <lastName>LIU</lastName>
+                </person>
+            </author>
+            <author>
+                <role>inventor</role>
+                <person>
+                    <firstName>LIMIN</firstName>
+                    <lastName>LIU</lastName>
+                </person>
+            </author>
+            <author>
+                <role>inventor</role>
+                <person>
+                    <firstName>ROBERT</firstName>
+                    <lastName>BARHAM</lastName>
+                </person>
+            </author>
+            <author>
+                <role>inventor</role>
+                <person>
+                    <firstName>BRUCE</firstName>
+                    <lastName>NERI</lastName>
+                </person>
+            </author>
+        </persons>
+        <organisations>
+            <organisation>
+                <name>
+                    <ns2:text>PROMETHEUS LABORATORIES INC</ns2:text>
+                </name>
+            </organisation>
+        </organisations>
+        <owner id="organisation2"/>
+        <keywords>
+            <ns2:logicalGroup logicalName="keywordContainers">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword>
+                        <ns2:freeKeywords>
+                            <ns2:freeKeyword>
+<ns2:text>Drug development</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitor-derived ligands</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitors</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Ligands</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Metal complexes</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Metal compounds</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Metal-based kinase inhibitors</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Phosphatase inhibitors</ns2:text>
+                            </ns2:freeKeyword>
+                        </ns2:freeKeywords>
+                    </ns2:structuredKeyword>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+            <ns2:logicalGroup logicalName="ASJCSubjectAreas">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword classification="/dk/atira/pure/subjectarea/asjc/1300"/>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+        </keywords>
+        <urls>
+            <url>
+                <url>http://ci.nii.ac.jp/ncid/BB01339800</url>
+                <description>
+                    <ns2:text>Other Link</ns2:text>
+                </description>
+                <type>unspecified</type>
+            </url>
+        </urls>
+        <electronicVersions>
+            <electronicVersionLink>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <link>http://ci.nii.ac.jp/ncid/BB01339800</link>
+            </electronicVersionLink>
+            <electronicVersionDOI>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <doi>10.1002/9781119050858.ch3</doi>
+            </electronicVersionDOI>
+            <electronicVersionFile>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <title>The title of the file</title>
+                <file id="file1">
+                    <filename>The article</filename>
+                    <fileLocation>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</fileLocation>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>123456789</filesize>
+                </file>
+            </electronicVersionFile>
+        </electronicVersions>
+        <additionalFiles>
+            <additionalFile>
+                <file id="additonalFileSource_01">
+                    <filename>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</filename>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>3387841116</filesize>
+                    <source>additonalFileSource</source>
+                </file>
+                <title>some title</title>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>01-01-2014</embargoStartDate>
+                <embargoEndDate>31-12-2015</embargoEndDate>
+                <licence>cc_by_nd</licence>
+            </additionalFile>
+        </additionalFiles>
+        <visibility>Public</visibility>
+        <externalIds>
+            <id type="espacenet">AU2015271927</id>
+        </externalIds>
+        <fundingText>
+            <ns2:text lang="en" country="GB">This article was funded by some organisation.</ns2:text>
+        </fundingText>
+        <fundingDetails>
+            <fundingDetail>
+                <fundingOrganisation id="1" source="mysource">
+                    <name>
+                        <ns2:text lang="en" country="GB">External Organisation</ns2:text>
+                    </name>
+                    <workflow>approved</workflow>
+                    <country>UK</country>
+                    <subdivision>sub</subdivision>
+                </fundingOrganisation>
+                <fundingOrganisationAcronym>ABC</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234-5678</fundingNumber>
+                    <fundingNumber>8765-4321</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+            <fundingDetail>
+                <fundingOrganisation id="11131000" source="synchronisedOrganisation"/>
+                <fundingOrganisationAcronym>CBA</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234</fundingNumber>
+                    <fundingNumber>8765</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+        </fundingDetails>
+        <ipc>G01N 33/ 50 A I</ipc>
+        <patentNumber>AU2015271927</patentNumber>
+        <priorityDate>18-12-2015</priorityDate>
+        <priorityNumber>AU20150271927</priorityNumber>
+    </patent>
+    <patent id="19125604" subType="patent">
+        <peerReviewed>false</peerReviewed>
+        <publicationStatuses>
+            <publicationStatus>
+                <statusType>published</statusType>
+                <date>
+                    <ns2:year>2014</ns2:year>
+                    <ns2:month>11</ns2:month>
+                    <ns2:day>27</ns2:day>
+                </date>
+            </publicationStatus>
+        </publicationStatuses>
+        <language>en_GB</language>
+        <title>
+            <ns2:text lang="en" country="GB">SYSTEM AND METHOD FOR AUTOMATED DETERMINATION OF THE RELATIVE EFFECTIVENESS OF ANTI-CANCER DRUG CANDIDATES</ns2:text>
+        </title>
+        <persons>
+            <author>
+                <role>inventor</role>
+                <person>
+                    <firstName>MATHIEU</firstName>
+                    <lastName>PERREE</lastName>
+                </person>
+            </author>
+            <author>
+                <role>inventor</role>
+                <person>
+                    <firstName>OLIVIER</firstName>
+                    <lastName>PETIT</lastName>
+                </person>
+            </author>
+            <author>
+                <role>inventor</role>
+                <person>
+                    <firstName>ALLAN E</firstName>
+                    <lastName>HALLQUIST</lastName>
+                </person>
+            </author>
+        </persons>
+        <organisations>
+            <organisation>
+                <name>
+                    <ns2:text>PROMETHEUS LABORATORIES INC</ns2:text>
+                </name>
+            </organisation>
+            <organisation id="organisation2"/>
+        </organisations>
+        <owner id="organisation2"/>
+        <keywords>
+            <ns2:logicalGroup logicalName="keywordContainers">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword>
+                        <ns2:freeKeywords>
+                            <ns2:freeKeyword>
+<ns2:text>Drug development</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitor-derived ligands</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitors</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Ligands</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Metal complexes</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Metal compounds</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Metal-based kinase inhibitors</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Phosphatase inhibitors</ns2:text>
+                            </ns2:freeKeyword>
+                        </ns2:freeKeywords>
+                    </ns2:structuredKeyword>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+            <ns2:logicalGroup logicalName="ASJCSubjectAreas">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword classification="/dk/atira/pure/subjectarea/asjc/1300"/>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+        </keywords>
+        <urls>
+            <url>
+                <url>http://ci.nii.ac.jp/ncid/BB01339800</url>
+                <description>
+                    <ns2:text>Other Link</ns2:text>
+                </description>
+                <type>unspecified</type>
+            </url>
+        </urls>
+        <electronicVersions>
+            <electronicVersionLink>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <link>http://ci.nii.ac.jp/ncid/BB01339800</link>
+            </electronicVersionLink>
+            <electronicVersionDOI>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <doi>10.1002/9781119050858.ch3</doi>
+            </electronicVersionDOI>
+            <electronicVersionFile>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <title>The title of the file</title>
+                <file id="file1">
+                    <filename>The article</filename>
+                    <fileLocation>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</fileLocation>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>123456789</filesize>
+                </file>
+            </electronicVersionFile>
+        </electronicVersions>
+        <additionalFiles>
+            <additionalFile>
+                <file id="additonalFileSource_01">
+                    <filename>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</filename>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>3387841116</filesize>
+                    <source>additonalFileSource</source>
+                </file>
+                <title>some title</title>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>01-01-2014</embargoStartDate>
+                <embargoEndDate>31-12-2015</embargoEndDate>
+                <licence>cc_by_nd</licence>
+            </additionalFile>
+        </additionalFiles>
+        <visibility>Public</visibility>
+        <externalIds>
+            <id type="espacenet">SG11201407141V</id>
+        </externalIds>
+        <fundingText>
+            <ns2:text lang="en" country="GB">This article was funded by some organisation.</ns2:text>
+        </fundingText>
+        <fundingDetails>
+            <fundingDetail>
+                <fundingOrganisation id="1" source="mysource">
+                    <name>
+                        <ns2:text lang="en" country="GB">External Organisation</ns2:text>
+                    </name>
+                    <workflow>approved</workflow>
+                    <country>UK</country>
+                    <subdivision>sub</subdivision>
+                </fundingOrganisation>
+                <fundingOrganisationAcronym>ABC</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234-5678</fundingNumber>
+                    <fundingNumber>8765-4321</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+            <fundingDetail>
+                <fundingOrganisation id="11131000" source="synchronisedOrganisation"/>
+                <fundingOrganisationAcronym>CBA</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234</fundingNumber>
+                    <fundingNumber>8765</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+        </fundingDetails>
+        <ipc>G06F 19/ 00 A I</ipc>
+        <patentNumber>SG11201407141V</patentNumber>
+        <priorityDate>02-05-2013</priorityDate>
+        <priorityNumber>WO2013US39189</priorityNumber>
+    </patent>
+</publications>

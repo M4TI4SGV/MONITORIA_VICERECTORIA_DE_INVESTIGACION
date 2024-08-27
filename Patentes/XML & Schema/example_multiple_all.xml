@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publications xmlns="v1.publication-import.base-uk.pure.atira.dk" xmlns:ns2="v3.commons.pure.atira.dk">
+    <contributionToJournal id="19125224" subType="article">
+        <peerReviewed>true</peerReviewed>
+        <publicationStatuses>
+            <publicationStatus>
+                <statusType>inpress</statusType>
+                <date>
+                    <ns2:year>2015</ns2:year>
+                    <ns2:month>2</ns2:month>
+                </date>
+            </publicationStatus>
+            <publicationStatus>
+                <statusType>published</statusType>
+                <date>
+                    <ns2:year>2016</ns2:year>
+                    <ns2:month>12</ns2:month>
+                </date>
+            </publicationStatus>
+        </publicationStatuses>
+        <workflow>approved</workflow>
+        <language>ja_JP</language>
+        <title>
+            <ns2:text lang="ja" country="JP">乳がん検診における医師による乳房視触診の臨床的意義</ns2:text>
+            <ns2:text lang="en" country="GB">Evaluation of Clinical Significance of Visual Inspection and Palpation by Doctors in Breast Cancer Screening</ns2:text>
+        </title>
+        <persons>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>尚久</firstName>
+                    <lastName>後山</lastName>
+                </person>
+            </author>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>暢子</firstName>
+                    <lastName>萩原</lastName>
+                </person>
+            </author>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>美希</firstName>
+                    <lastName>内藤</lastName>
+                </person>
+            </author>
+        </persons>
+        <organisations>
+            <organisation id="organisation2"/>
+        </organisations>
+        <owner id="organisation2"/>
+        <keywords>
+            <ns2:logicalGroup logicalName="keywordContainers">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword>
+                        <ns2:freeKeywords>
+                            <ns2:freeKeyword>
+<ns2:text>Drug development</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitor-derived ligands</ns2:text>
+                            </ns2:freeKeyword>
+                        </ns2:freeKeywords>
+                    </ns2:structuredKeyword>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+            <ns2:logicalGroup logicalName="ASJCSubjectAreas">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword classification="/dk/atira/pure/subjectarea/asjc/1300"/>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+        </keywords>
+        <urls>
+            <url>
+                <url>http://ci.nii.ac.jp/ncid/BB01339800</url>
+                <description>
+                    <ns2:text>Other Link</ns2:text>
+                </description>
+                <type>unspecified</type>
+            </url>
+        </urls>
+        <electronicVersions>
+            <electronicVersionLink>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <link>http://ci.nii.ac.jp/ncid/BB01339800</link>
+            </electronicVersionLink>
+            <electronicVersionDOI>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <doi>10.1002/9781119050858.ch3</doi>
+            </electronicVersionDOI>
+            <electronicVersionFile>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <title>The title of the file</title>
+                <file id="file1">
+                    <filename>The article</filename>
+                    <fileLocation>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</fileLocation>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>123456789</filesize>
+                </file>
+            </electronicVersionFile>
+        </electronicVersions>
+        <additionalFiles>
+            <additionalFile>
+                <file id="additonalFileSource_01">
+                    <filename>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</filename>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>3387841116</filesize>
+                    <source>additonalFileSource</source>
+                </file>
+                <title>some title</title>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>01-01-2014</embargoStartDate>
+                <embargoEndDate>31-12-2015</embargoEndDate>
+                <licence>cc_by_nd</licence>
+            </additionalFile>
+        </additionalFiles>
+        <visibility>Public</visibility>
+        <externalIds>
+            <id type="CINII">40020695106</id>
+        </externalIds>
+        <fundingText>
+            <ns2:text lang="en" country="GB">This article was funded by some organisation.</ns2:text>
+        </fundingText>
+        <fundingDetails>
+            <fundingDetail>
+                <fundingOrganisation id="1" source="mysource">
+                    <name>
+                        <ns2:text lang="en" country="GB">External Organisation</ns2:text>
+                    </name>
+                    <workflow>approved</workflow>
+                    <country>UK</country>
+                    <subdivision>sub</subdivision>
+                </fundingOrganisation>
+                <fundingOrganisationAcronym>ABC</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234-5678</fundingNumber>
+                    <fundingNumber>8765-4321</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+            <fundingDetail>
+                <fundingOrganisation id="11131000" source="synchronisedOrganisation"/>
+                <fundingOrganisationAcronym>CBA</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234</fundingNumber>
+                    <fundingNumber>8765</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+        </fundingDetails>
+        <pages>728-734</pages>
+        <numberOfPages>7</numberOfPages>
+        <journalNumber>4</journalNumber>
+        <journalVolume>30</journalVolume>
+        <journal>
+            <title>人間ドック = Ningen Dock : official journal of the Japanese Society of Human Dry Dock</title>
+            <printIssns>
+                <issn>1880-1021</issn>
+            </printIssns>
+        </journal>
+    </contributionToJournal>
+    <contributionToJournal id="19125150" subType="article">
+        <peerReviewed>true</peerReviewed>
+        <publicationStatuses>
+            <publicationStatus>
+                <statusType>published</statusType>
+                <date>
+                    <ns2:year>2016</ns2:year>
+                    <ns2:month>1</ns2:month>
+                </date>
+            </publicationStatus>
+        </publicationStatuses>
+        <workflow>approved</workflow>
+        <language>ja_JP</language>
+        <title>
+            <ns2:text lang="ja" country="JP">臨床研究・症例報告 根治が難しい小児がん患児における化学療法を含めた終末期医療と看取りの場所についての報告</ns2:text>
+            <ns2:text lang="en" country="GB">A report of the association between the end-of-life care with chemotherapy and the place of death in pediatric cancer patients</ns2:text>
+        </title>
+        <persons>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>美保子</firstName>
+                    <lastName>杉下</lastName>
+                </person>
+            </author>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>宏明</firstName>
+                    <lastName>十九浦</lastName>
+                </person>
+            </author>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>康則</firstName>
+                    <lastName>足立</lastName>
+                </person>
+            </author>
+        </persons>
+        <organisations>
+            <organisation id="organisation2"/>
+        </organisations>
+        <owner id="organisation2"/>
+        <keywords>
+            <ns2:logicalGroup logicalName="keywordContainers">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword>
+                        <ns2:freeKeywords>
+                            <ns2:freeKeyword>
+<ns2:text>Drug development</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitor-derived ligands</ns2:text>
+                            </ns2:freeKeyword>
+                        </ns2:freeKeywords>
+                    </ns2:structuredKeyword>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+            <ns2:logicalGroup logicalName="ASJCSubjectAreas">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword classification="/dk/atira/pure/subjectarea/asjc/1300"/>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+        </keywords>
+        <urls>
+            <url>
+                <url>http://ci.nii.ac.jp/ncid/BB01339800</url>
+                <description>
+                    <ns2:text>Other Link</ns2:text>
+                </description>
+                <type>unspecified</type>
+            </url>
+        </urls>
+        <electronicVersions>
+            <electronicVersionLink>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <link>http://ci.nii.ac.jp/ncid/BB01339800</link>
+            </electronicVersionLink>
+            <electronicVersionDOI>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <doi>10.1002/9781119050858.ch3</doi>
+            </electronicVersionDOI>
+            <electronicVersionFile>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <title>The title of the file</title>
+                <file id="file1">
+                    <filename>The article</filename>
+                    <fileLocation>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</fileLocation>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>123456789</filesize>
+                </file>
+            </electronicVersionFile>
+        </electronicVersions>
+        <additionalFiles>
+            <additionalFile>
+                <file id="additonalFileSource_01">
+                    <filename>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</filename>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>3387841116</filesize>
+                    <source>additonalFileSource</source>
+                </file>
+                <title>some title</title>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>01-01-2014</embargoStartDate>
+                <embargoEndDate>31-12-2015</embargoEndDate>
+                <licence>cc_by_nd</licence>
+            </additionalFile>
+        </additionalFiles>
+        <visibility>Public</visibility>
+        <externalIds>
+            <id type="CINII">40020682503</id>
+        </externalIds>
+        <fundingText>
+            <ns2:text lang="en" country="GB">This article was funded by some organisation.</ns2:text>
+        </fundingText>
+        <fundingDetails>
+            <fundingDetail>
+                <fundingOrganisation id="1" source="mysource">
+                    <name>
+                        <ns2:text lang="en" country="GB">External Organisation</ns2:text>
+                    </name>
+                    <workflow>approved</workflow>
+                    <country>UK</country>
+                    <subdivision>sub</subdivision>
+                </fundingOrganisation>
+                <fundingOrganisationAcronym>ABC</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234-5678</fundingNumber>
+                    <fundingNumber>8765-4321</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+            <fundingDetail>
+                <fundingOrganisation id="11131000" source="synchronisedOrganisation"/>
+                <fundingOrganisationAcronym>CBA</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234</fundingNumber>
+                    <fundingNumber>8765</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+        </fundingDetails>
+        <pages>122-128</pages>
+        <numberOfPages>7</numberOfPages>
+        <journalNumber>1</journalNumber>
+        <journalVolume>69</journalVolume>
+        <journal>
+            <title>小児科臨床</title>
+            <printIssns>
+                <issn>0021-518X</issn>
+            </printIssns>
+        </journal>
+    </contributionToJournal>
+    <book id="19125668" subType="book">
+        <peerReviewed>false</peerReviewed>
+        <publicationStatuses>
+            <publicationStatus>
+                <statusType>published</statusType>
+                <date>
+                    <ns2:year>2009</ns2:year>
+                </date>
+            </publicationStatus>
+        </publicationStatuses>
+        <workflow>approved</workflow>
+        <language>ja_JP</language>
+        <title>
+            <ns2:text lang="ja" country="JP">キャラ化する/される子どもたち</ns2:text>
+            <ns2:text lang="en" country="GB">The character of / children</ns2:text>
+        </title>
+        <subTitle>
+            <ns2:text lang="ja" country="JP">排除型社会における新たな人間像</ns2:text>
+            <ns2:text lang="en" country="GB">New beings in elimination-based society</ns2:text>
+        </subTitle>
+        <persons>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>隆義</firstName>
+                    <lastName>土井</lastName>
+                </person>
+            </author>
+        </persons>
+        <organisations>
+            <organisation id="organisation2"/>
+        </organisations>
+        <owner id="organisation2"/>
+        <keywords>
+            <ns2:logicalGroup logicalName="keywordContainers">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword>
+                        <ns2:freeKeywords>
+                            <ns2:freeKeyword>
+<ns2:text>Drug development</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitor-derived ligands</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitors</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Ligands</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Metal complexes</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Metal compounds</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Metal-based kinase inhibitors</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Phosphatase inhibitors</ns2:text>
+                            </ns2:freeKeyword>
+                        </ns2:freeKeywords>
+                    </ns2:structuredKeyword>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+            <ns2:logicalGroup logicalName="ASJCSubjectAreas">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword classification="/dk/atira/pure/subjectarea/asjc/1300"/>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+        </keywords>
+        <urls>
+            <url>
+                <url>http://ci.nii.ac.jp/ncid/BB01339800</url>
+                <description>
+                    <ns2:text>Other Link</ns2:text>
+                </description>
+                <type>unspecified</type>
+            </url>
+        </urls>
+        <electronicVersions>
+            <electronicVersionLink>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <link>http://ci.nii.ac.jp/ncid/BB01339800</link>
+            </electronicVersionLink>
+            <electronicVersionDOI>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <doi>10.1002/9781119050858.ch3</doi>
+            </electronicVersionDOI>
+            <electronicVersionFile>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <title>The title of the file</title>
+                <file id="file1">
+                    <filename>The article</filename>
+                    <fileLocation>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</fileLocation>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>123456789</filesize>
+                </file>
+            </electronicVersionFile>
+        </electronicVersions>
+        <additionalFiles>
+            <additionalFile>
+                <file id="additonalFileSource_01">
+                    <filename>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</filename>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>3387841116</filesize>
+                    <source>additonalFileSource</source>
+                </file>
+                <title>some title</title>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>01-01-2014</embargoStartDate>
+                <embargoEndDate>31-12-2015</embargoEndDate>
+                <licence>cc_by_nd</licence>
+            </additionalFile>
+        </additionalFiles>
+        <visibility>Public</visibility>
+        <externalIds>
+            <id type="CINII">BA90264477</id>
+        </externalIds>
+        <fundingText>
+            <ns2:text lang="en" country="GB">This article was funded by some organisation.</ns2:text>
+        </fundingText>
+        <fundingDetails>
+            <fundingDetail>
+                <fundingOrganisation id="1" source="mysource">
+                    <name>
+                        <ns2:text lang="en" country="GB">External Organisation</ns2:text>
+                    </name>
+                    <workflow>approved</workflow>
+                    <country>UK</country>
+                    <subdivision>sub</subdivision>
+                </fundingOrganisation>
+                <fundingOrganisationAcronym>ABC</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234-5678</fundingNumber>
+                    <fundingNumber>8765-4321</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+            <fundingDetail>
+                <fundingOrganisation id="11131000" source="synchronisedOrganisation"/>
+                <fundingOrganisationAcronym>CBA</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234</fundingNumber>
+                    <fundingNumber>8765</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+        </fundingDetails>
+        <printIsbns>
+            <isbn>9784000094597</isbn>
+        </printIsbns>
+        <series>
+            <serie>
+                <name>岩波ブックレット</name>
+                <number>759</number>
+            </serie>
+        </series>
+        <publisher>
+            <name>岩波書店</name>
+        </publisher>
+    </book>
+    <book id="1" subType="book">
+        <peerReviewed>false</peerReviewed>
+        <publicationStatuses>
+            <publicationStatus>
+                <statusType>published</statusType>
+                <date>
+                    <ns2:year>2014</ns2:year>
+                </date>
+            </publicationStatus>
+        </publicationStatuses>
+        <language>ja_JP</language>
+        <title>
+            <ns2:text lang="ja" country="JP">長周期地震動を受ける高層建築物における杭基礎の液状化地盤上の終局メカニズムの解明</ns2:text>
+            <ns2:text lang="en" country="GB">Collapse mechanism of dynamic flexural buckling for steel piles under tall structures on centrifuge tests in liquefied soil</ns2:text>
+        </title>
+        <persons>
+            <author>
+                <role>author</role>
+                <person origin="external">
+                    <firstName>祥裕</firstName>
+                    <lastName>木村</lastName>
+                </person>
+            </author>
+            <author>
+                <role>author</role>
+                <person origin="external">
+                    <lastName>京都大学防災研究所</lastName>
+                </person>
+            </author>
+            <author>
+                <role>author</role>
+                <person origin="external">
+                    <firstName>Malene</firstName>
+                    <lastName>Knudsen</lastName>
+                </person>
+                <organisations>
+                    <organisation id="AALS">
+                        <name>
+                            <ns2:text lang="en" country="GB">Nursing Manager</ns2:text>
+                        </name>
+                    </organisation>
+                </organisations>
+            </author>
+        </persons>
+        <organisations>
+            <organisation id="organisation2"/>
+        </organisations>
+        <owner id="organisation2"/>
+        <keywords>
+            <ns2:logicalGroup logicalName="keywordContainers">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword>
+                        <ns2:freeKeywords>
+                            <ns2:freeKeyword>
+<ns2:text>Drug development</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitor-derived ligands</ns2:text>
+                            </ns2:freeKeyword>
+                        </ns2:freeKeywords>
+                    </ns2:structuredKeyword>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+            <ns2:logicalGroup logicalName="ASJCSubjectAreas">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword classification="/dk/atira/pure/subjectarea/asjc/1300"/>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+        </keywords>
+        <urls>
+            <url>
+                <url>http://ci.nii.ac.jp/ncid/BB01339800</url>
+                <description>
+                    <ns2:text>Other Link</ns2:text>
+                </description>
+                <type>unspecified</type>
+            </url>
+        </urls>
+        <electronicVersions>
+            <electronicVersionLink>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <link>http://ci.nii.ac.jp/ncid/BB01339800</link>
+            </electronicVersionLink>
+            <electronicVersionDOI>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <doi>10.1002/9781119050858.ch3</doi>
+            </electronicVersionDOI>
+            <electronicVersionFile>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <title>The title of the file</title>
+                <file id="file1">
+                    <filename>The article</filename>
+                    <fileLocation>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</fileLocation>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>123456789</filesize>
+                </file>
+            </electronicVersionFile>
+        </electronicVersions>
+        <additionalFiles>
+            <additionalFile>
+                <file id="additonalFileSource_01">
+                    <filename>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</filename>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>3387841116</filesize>
+                    <source>additonalFileSource</source>
+                </file>
+                <title>some title</title>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>01-01-2014</embargoStartDate>
+                <embargoEndDate>31-12-2015</embargoEndDate>
+                <licence>cc_by_nd</licence>
+            </additionalFile>
+        </additionalFiles>
+        <externalIds>
+            <id type="CINII">BB18701560</id>
+        </externalIds>
+        <fundingText>
+            <ns2:text lang="en" country="GB">This article was funded by some organisation.</ns2:text>
+        </fundingText>
+        <fundingDetails>
+            <fundingDetail>
+                <fundingOrganisation id="1" source="mysource">
+                    <name>
+                        <ns2:text lang="en" country="GB">External Organisation</ns2:text>
+                    </name>
+                    <workflow>approved</workflow>
+                    <country>UK</country>
+                    <subdivision>sub</subdivision>
+                </fundingOrganisation>
+                <fundingOrganisationAcronym>ABC</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234-5678</fundingNumber>
+                    <fundingNumber>8765-4321</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+            <fundingDetail>
+                <fundingOrganisation id="11131000" source="synchronisedOrganisation"/>
+                <fundingOrganisationAcronym>CBA</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234</fundingNumber>
+                    <fundingNumber>8765</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+        </fundingDetails>
+        <publisher id="1234">
+            <name>京都大学防災研究所</name>
+            <workflow>approved</workflow>
+        </publisher>
+    </book>
+    <contributionToSpecialist id="19125747" subType="featured">
+        <peerReviewed>false</peerReviewed>
+        <publicationStatuses>
+            <publicationStatus>
+                <statusType>published</statusType>
+                <date>
+                    <ns2:year>2015</ns2:year>
+                    <ns2:month>11</ns2:month>
+                </date>
+            </publicationStatus>
+        </publicationStatuses>
+        <workflow>approved</workflow>
+        <language>ja_JP</language>
+        <title>
+            <ns2:text lang="ja" country="JP">スポーツ施設資材要覧2016</ns2:text>
+            <ns2:text lang="en" country="GB">SPORTS FACILITIES CONSTRUCTION MATERIAL 2016</ns2:text>
+        </title>
+        <persons>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>Malene</firstName>
+                    <lastName>Knudsen</lastName>
+                </person>
+            </author>
+        </persons>
+        <organisations>
+            <organisation id="organisation2"/>
+        </organisations>
+        <owner id="organisation2"/>
+        <keywords>
+            <ns2:logicalGroup logicalName="keywordContainers">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword>
+                        <ns2:freeKeywords>
+                            <ns2:freeKeyword>
+<ns2:text>Drug development</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitor-derived ligands</ns2:text>
+                            </ns2:freeKeyword>
+                        </ns2:freeKeywords>
+                    </ns2:structuredKeyword>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+            <ns2:logicalGroup logicalName="ASJCSubjectAreas">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword classification="/dk/atira/pure/subjectarea/asjc/1300"/>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+        </keywords>
+        <urls>
+            <url>
+                <url>http://ci.nii.ac.jp/ncid/BB01339800</url>
+                <description>
+                    <ns2:text>Other Link</ns2:text>
+                </description>
+                <type>unspecified</type>
+            </url>
+        </urls>
+        <electronicVersions>
+            <electronicVersionLink>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <link>http://ci.nii.ac.jp/ncid/BB01339800</link>
+            </electronicVersionLink>
+            <electronicVersionDOI>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <doi>10.1002/9781119050858.ch3</doi>
+            </electronicVersionDOI>
+            <electronicVersionFile>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <title>The title of the file</title>
+                <file id="file1">
+                    <filename>The article</filename>
+                    <fileLocation>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</fileLocation>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>123456789</filesize>
+                </file>
+            </electronicVersionFile>
+        </electronicVersions>
+        <additionalFiles>
+            <additionalFile>
+                <file id="additonalFileSource_01">
+                    <filename>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</filename>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>3387841116</filesize>
+                    <source>additonalFileSource</source>
+                </file>
+                <title>some title</title>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>01-01-2014</embargoStartDate>
+                <embargoEndDate>31-12-2015</embargoEndDate>
+                <licence>cc_by_nd</licence>
+            </additionalFile>
+        </additionalFiles>
+        <visibility>Public</visibility>
+        <externalIds>
+            <id type="CINII">urn:40020688831</id>
+        </externalIds>
+        <fundingText>
+            <ns2:text lang="en" country="GB">This article was funded by some organisation.</ns2:text>
+        </fundingText>
+        <fundingDetails>
+            <fundingDetail>
+                <fundingOrganisation id="1" source="mysource">
+                    <name>
+                        <ns2:text lang="en" country="GB">External Organisation</ns2:text>
+                    </name>
+                    <workflow>approved</workflow>
+                    <country>UK</country>
+                    <subdivision>sub</subdivision>
+                </fundingOrganisation>
+                <fundingOrganisationAcronym>ABC</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234-5678</fundingNumber>
+                    <fundingNumber>8765-4321</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+            <fundingDetail>
+                <fundingOrganisation id="11131000" source="synchronisedOrganisation"/>
+                <fundingOrganisationAcronym>CBA</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234</fundingNumber>
+                    <fundingNumber>8765</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+        </fundingDetails>
+        <pages>1-107</pages>
+        <numberOfPages>107</numberOfPages>
+        <volume>44</volume>
+        <journal>
+            <title>SF : sports facilities</title>
+            <printIssns>
+                <issn>1883-9991</issn>
+            </printIssns>
+        </journal>
+    </contributionToSpecialist>
+    <contributionToSpecialist id="19125718" subType="article">
+        <peerReviewed>false</peerReviewed>
+        <publicationStatuses>
+            <publicationStatus>
+                <statusType>published</statusType>
+                <date>
+                    <ns2:year>2015</ns2:year>
+                    <ns2:month>12</ns2:month>
+                    <ns2:day>31</ns2:day>
+                </date>
+            </publicationStatus>
+        </publicationStatuses>
+        <workflow>approved</workflow>
+        <language>ja_JP</language>
+        <title>
+            <ns2:text lang="ja" country="JP">地元プロ・スポーツチームのチームイメージ，チーム同一性と地域愛着</ns2:text>
+            <ns2:text lang="en" country="GB">Relationship between Team Image, Team Identity and Place Attachment in professional sports context</ns2:text>
+        </title>
+        <abstract>
+            <ns2:text lang="ja" country="JP">本研究は，地元地域に本拠地をおくプロ・スポーツチームのチームイメージ，チームへの愛着（チーム同一性）と，地元地域への愛着（地域愛着）との関連を明らかにすることを目的とした。郵送法による質問紙調査をチームのホームゲーム会場において実施した結果，有効回答数472（有効回答率23.6％）を得て，そのうちの地元地域（県内・市内）在住者345（17.3％）のみを分析対象とした。その結果，チームイメージは，チームへの愛着（チーム同一性）による分類レベルによって異なっており，高いほど肯定的であった。また地元地域への愛着（地域愛着）もチームへの愛着の分類レベルにより異なっており，地域への一体感（地域同一性）は非ファンよりも熱狂的ファンの方が高く，地域への依存性（限定性）においても非ファンや一般ファンよりも熱狂的ファンの方がより高かった。チームに対し肯定的なイメージを持ちチームへの愛着が最も高い熱狂的ファンは，地元地域への愛着（地域同一性と地域依存性）が高いことが明らかとなった。</ns2:text>
+        </abstract>
+        <persons>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>耕二</firstName>
+                    <lastName>松本</lastName>
+                </person>
+            </author>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>泰弘</firstName>
+                    <lastName>渡辺</lastName>
+                </person>
+            </author>
+        </persons>
+        <organisations>
+            <organisation id="organisation2"/>
+        </organisations>
+        <owner id="organisation2"/>
+        <keywords>
+            <ns2:logicalGroup logicalName="keywordContainers">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword>
+                        <ns2:freeKeywords>
+                            <ns2:freeKeyword>
+<ns2:text>Drug development</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitor-derived ligands</ns2:text>
+                            </ns2:freeKeyword>
+                        </ns2:freeKeywords>
+                    </ns2:structuredKeyword>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+            <ns2:logicalGroup logicalName="ASJCSubjectAreas">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword classification="/dk/atira/pure/subjectarea/asjc/1300"/>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+        </keywords>
+        <urls>
+            <url>
+                <url>http://ci.nii.ac.jp/ncid/BB01339800</url>
+                <description>
+                    <ns2:text>Other Link</ns2:text>
+                </description>
+                <type>unspecified</type>
+            </url>
+        </urls>
+        <electronicVersions>
+            <electronicVersionLink>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <link>http://ci.nii.ac.jp/ncid/BB01339800</link>
+            </electronicVersionLink>
+            <electronicVersionDOI>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <doi>10.1002/9781119050858.ch3</doi>
+            </electronicVersionDOI>
+            <electronicVersionFile>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <title>The title of the file</title>
+                <file id="file1">
+                    <filename>The article</filename>
+                    <fileLocation>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</fileLocation>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>123456789</filesize>
+                </file>
+            </electronicVersionFile>
+        </electronicVersions>
+        <additionalFiles>
+            <additionalFile>
+                <file id="additonalFileSource_01">
+                    <filename>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</filename>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>3387841116</filesize>
+                    <source>additonalFileSource</source>
+                </file>
+                <title>some title</title>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>01-01-2014</embargoStartDate>
+                <embargoEndDate>31-12-2015</embargoEndDate>
+                <licence>cc_by_nd</licence>
+            </additionalFile>
+        </additionalFiles>
+        <visibility>Public</visibility>
+        <externalIds>
+            <id type="CINII">120005682763</id>
+        </externalIds>
+        <fundingText>
+            <ns2:text lang="en" country="GB">This article was funded by some organisation.</ns2:text>
+        </fundingText>
+        <fundingDetails>
+            <fundingDetail>
+                <fundingOrganisation id="1" source="mysource">
+                    <name>
+                        <ns2:text lang="en" country="GB">External Organisation</ns2:text>
+                    </name>
+                    <workflow>approved</workflow>
+                    <country>UK</country>
+                    <subdivision>sub</subdivision>
+                </fundingOrganisation>
+                <fundingOrganisationAcronym>ABC</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234-5678</fundingNumber>
+                    <fundingNumber>8765-4321</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+            <fundingDetail>
+                <fundingOrganisation id="11131000" source="synchronisedOrganisation"/>
+                <fundingOrganisationAcronym>CBA</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234</fundingNumber>
+                    <fundingNumber>8765</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+        </fundingDetails>
+        <pages>13-21</pages>
+        <numberOfPages>9</numberOfPages>
+        <volume>38</volume>
+        <journal>
+            <title>広島経済大学研究論集</title>
+        </journal>
+    </contributionToSpecialist>
+    <chapterInBook id="19125376" subType="chapter">
+        <peerReviewed>false</peerReviewed>
+        <publicationStatuses>
+            <publicationStatus>
+                <statusType>published</statusType>
+                <date>
+                    <ns2:year>2014</ns2:year>
+                </date>
+            </publicationStatus>
+        </publicationStatuses>
+        <language>fr_FR</language>
+        <title>
+            <ns2:text lang="fr" country="FR">CRYOTUMORECTOMIE REGLEE DANS LES CANCERS DU SEIN. ASPECT TECHNIQUE ET THEORIQUE</ns2:text>
+            <ns2:text lang="en" country="GB">Cryosurgery of advanced breast cancers</ns2:text>
+        </title>
+        <subTitle>
+            <ns2:text lang="fr" country="FR">ESSAI D'INTERPRETATION</ns2:text>
+        </subTitle>
+        <persons>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>P.</firstName>
+                    <lastName>Le Pivert</lastName>
+                </person>
+                <organisations>
+                    <organisation>
+                        <name>
+                            <ns2:text>Serv. Chir. Gen.</ns2:text>
+                        </name>
+                    </organisation>
+                </organisations>
+            </author>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>J. C.</firstName>
+                    <lastName>Le Petit</lastName>
+                </person>
+                <organisations>
+                    <organisation>
+                        <name>
+                            <ns2:text>Serv. Chir. Gen.</ns2:text>
+                        </name>
+                    </organisation>
+                </organisations>
+            </author>
+            <author>
+                <role>author</role>
+                <person>
+                    <firstName>J.</firstName>
+                    <lastName>Fraisse</lastName>
+                </person>
+                <organisations>
+                    <organisation>
+                        <name>
+                            <ns2:text>Serv. Chir. Gen.</ns2:text>
+                        </name>
+                    </organisation>
+                </organisations>
+            </author>
+        </persons>
+        <organisations>
+            <organisation id="organisation2"/>
+        </organisations>
+        <owner id="organisation2"/>
+        <keywords>
+            <ns2:logicalGroup logicalName="keywordContainers">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword>
+                        <ns2:freeKeywords>
+                            <ns2:freeKeyword>
+<ns2:text>Drug development</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitor-derived ligands</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitors</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Ligands</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Metal complexes</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Metal compounds</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Metal-based kinase inhibitors</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Phosphatase inhibitors</ns2:text>
+                            </ns2:freeKeyword>
+                        </ns2:freeKeywords>
+                    </ns2:structuredKeyword>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+            <ns2:logicalGroup logicalName="ASJCSubjectAreas">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword classification="/dk/atira/pure/subjectarea/asjc/2700"/>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+        </keywords>
+        <urls>
+            <url>
+                <url>http://ci.nii.ac.jp/ncid/BB01339800</url>
+                <description>
+                    <ns2:text>Other Link</ns2:text>
+                </description>
+                <type>unspecified</type>
+            </url>
+        </urls>
+        <electronicVersions>
+            <electronicVersionLink>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <link>http://ci.nii.ac.jp/ncid/BB01339800</link>
+            </electronicVersionLink>
+            <electronicVersionDOI>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <doi>10.1002/9781119050858.ch3</doi>
+            </electronicVersionDOI>
+            <electronicVersionFile>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <title>The title of the file</title>
+                <file id="file1">
+                    <filename>The article</filename>
+                    <fileLocation>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</fileLocation>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>123456789</filesize>
+                </file>
+            </electronicVersionFile>
+        </electronicVersions>
+        <additionalFiles>
+            <additionalFile>
+                <file id="additonalFileSource_01">
+                    <filename>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</filename>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>3387841116</filesize>
+                    <source>additonalFileSource</source>
+                </file>
+                <title>some title</title>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>01-01-2014</embargoStartDate>
+                <embargoEndDate>31-12-2015</embargoEndDate>
+                <licence>cc_by_nd</licence>
+            </additionalFile>
+        </additionalFiles>
+        <visibility>Public</visibility>
+        <externalIds>
+            <id type="scopus">0017578276</id>
+        </externalIds>
+        <fundingText>
+            <ns2:text lang="en" country="GB">This article was funded by some organisation.</ns2:text>
+        </fundingText>
+        <fundingDetails>
+            <fundingDetail>
+                <fundingOrganisation id="1" source="mysource">
+                    <name>
+                        <ns2:text lang="en" country="GB">External Organisation</ns2:text>
+                    </name>
+                    <workflow>approved</workflow>
+                    <country>UK</country>
+                    <subdivision>sub</subdivision>
+                </fundingOrganisation>
+                <fundingOrganisationAcronym>ABC</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234-5678</fundingNumber>
+                    <fundingNumber>8765-4321</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+            <fundingDetail>
+                <fundingOrganisation id="11131000" source="synchronisedOrganisation"/>
+                <fundingOrganisationAcronym>CBA</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234</fundingNumber>
+                    <fundingNumber>8765</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+        </fundingDetails>
+        <pages>267-278</pages>
+        <numberOfPages>12</numberOfPages>
+        <volume>62</volume>
+        <printIsbns>
+            <isbn>9789812878168</isbn>
+        </printIsbns>
+        <hostPublicationTitle>EDITIONS INSERM, PARIS</hostPublicationTitle>
+    </chapterInBook>
+    <workingPaper id="19125690" subType="workingpaper">
+        <peerReviewed>false</peerReviewed>
+        <publicationStatuses>
+            <publicationStatus>
+                <statusType>published</statusType>
+                <date>
+                    <ns2:year>2009</ns2:year>
+                </date>
+            </publicationStatus>
+        </publicationStatuses>
+        <workflow>approved</workflow>
+        <language>ja_JP</language>
+        <title>
+            <ns2:text lang="ja" country="JP">流通小売業がよくわかる本</ns2:text>
+            <ns2:text lang="en" country="GB">Book distribution and retail industry is well seen</ns2:text>
+        </title>
+        <subTitle>
+            <ns2:text lang="ja" country="JP">決定版 : 打越祐が記す21世紀の道</ns2:text>
+        </subTitle>
+        <persons>
+            <author>
+                <role>author</role>
+                <person origin="external">
+                    <firstName>祐</firstName>
+                    <lastName>打越</lastName>
+                </person>
+            </author>
+        </persons>
+        <organisations>
+            <organisation id="organisation2"/>
+        </organisations>
+        <owner id="organisation2"/>
+        <keywords>
+            <ns2:logicalGroup logicalName="keywordContainers">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword>
+                        <ns2:freeKeywords>
+                            <ns2:freeKeyword>
+<ns2:text>Drug development</ns2:text>
+                            </ns2:freeKeyword>
+                            <ns2:freeKeyword>
+<ns2:text>Kinase inhibitor-derived ligands</ns2:text>
+                            </ns2:freeKeyword>
+                        </ns2:freeKeywords>
+                    </ns2:structuredKeyword>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+            <ns2:logicalGroup logicalName="ASJCSubjectAreas">
+                <ns2:structuredKeywords>
+                    <ns2:structuredKeyword classification="/dk/atira/pure/subjectarea/asjc/1300"/>
+                </ns2:structuredKeywords>
+            </ns2:logicalGroup>
+        </keywords>
+        <urls>
+            <url>
+                <url>http://ci.nii.ac.jp/ncid/BB01339800</url>
+                <description>
+                    <ns2:text>Other Link</ns2:text>
+                </description>
+                <type>unspecified</type>
+            </url>
+        </urls>
+        <electronicVersions>
+            <electronicVersionLink>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <link>http://ci.nii.ac.jp/ncid/BB01339800</link>
+            </electronicVersionLink>
+            <electronicVersionDOI>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <doi>10.1002/9781119050858.ch3</doi>
+            </electronicVersionDOI>
+            <electronicVersionFile>
+                <version>publishersversion</version>
+                <licence>cc_by_nd</licence>
+                <otherLicenceUrl>https://creativecommons.org/licenses/by-nd/4.0/legalcode</otherLicenceUrl>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>10-04-1980</embargoStartDate>
+                <embargoEndDate>11-04-1980</embargoEndDate>
+                <title>The title of the file</title>
+                <file id="file1">
+                    <filename>The article</filename>
+                    <fileLocation>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</fileLocation>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>123456789</filesize>
+                </file>
+            </electronicVersionFile>
+        </electronicVersions>
+        <additionalFiles>
+            <additionalFile>
+                <file id="additonalFileSource_01">
+                    <filename>https://ci.pure.elsevier.systems/userContent/Research_Output_Import_Wizard_Documentation.pdf</filename>
+                    <mimetype>application/pdf</mimetype>
+                    <filesize>3387841116</filesize>
+                    <source>additonalFileSource</source>
+                </file>
+                <title>some title</title>
+                <publicAccess>embargoed</publicAccess>
+                <embargoStartDate>01-01-2014</embargoStartDate>
+                <embargoEndDate>31-12-2015</embargoEndDate>
+                <licence>cc_by_nd</licence>
+            </additionalFile>
+        </additionalFiles>
+        <visibility>Public</visibility>
+        <externalIds>
+            <id type="CINII">BA90720441</id>
+        </externalIds>
+        <fundingText>
+            <ns2:text lang="en" country="GB">This article was funded by some organisation.</ns2:text>
+        </fundingText>
+        <fundingDetails>
+            <fundingDetail>
+                <fundingOrganisation id="1" source="mysource">
+                    <name>
+                        <ns2:text lang="en" country="GB">External Organisation</ns2:text>
+                    </name>
+                    <workflow>approved</workflow>
+                    <country>UK</country>
+                    <subdivision>sub</subdivision>
+                </fundingOrganisation>
+                <fundingOrganisationAcronym>ABC</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234-5678</fundingNumber>
+                    <fundingNumber>8765-4321</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+            <fundingDetail>
+                <fundingOrganisation id="11131000" source="synchronisedOrganisation"/>
+                <fundingOrganisationAcronym>CBA</fundingOrganisationAcronym>
+                <fundingNumbers>
+                    <fundingNumber>1234</fundingNumber>
+                    <fundingNumber>8765</fundingNumber>
+                </fundingNumbers>
+            </fundingDetail>
+        </fundingDetails>
+        <placeOfPublication>Ann Arbor, MI (US)</placeOfPublication>
+        <publisher>
+            <name>商業界</name>
+        </publisher>
+        <printIsbns>
+            <isbn>9784785503499</isbn>
+        </printIsbns>
+    </workingPaper>
+</publications>
