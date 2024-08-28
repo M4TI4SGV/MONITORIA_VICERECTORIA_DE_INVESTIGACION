@@ -1,0 +1,14 @@
+linea 1-72
+Configuración del entorno de detección de idiomas: Usa spaCy para cargar un modelo de procesamiento de lenguaje natural en español, al cual se le agrega un detector de idiomas.
+Lectura del archivo Excel: Carga un archivo Excel que contiene información sobre proyectos y lo procesa para extraer los datos.
+Creación del XML: Se configura la estructura inicial del archivo XML y se prepara para agregar la información de cada proyecto.
+Procesamiento de los proyectos: Para cada proyecto único, el código extrae detalles como el título, la descripción, las fechas, los participantes, y luego valida y limpia la información.
+Detección y manejo de idiomas: Detecta el idioma del título y la descripción del proyecto, asegurando que solo se usen idiomas soportados (español e inglés). También asigna el país correspondiente al idioma detectado.
+Manejo de datos incompletos: Si los datos son incorrectos o están incompletos (por ejemplo, si la descripción es un número), se reemplazan con valores predeterminados.
+
+PANDAS:
+¿QUE HACE PANDAS CON SPACY?
+
+pandas proporciona una forma estructurada y fácil de manipular los datos de un archivo Excel, permitiendo que se extraigan textos específicos para su análisis. 
+Una vez que tienes estos textos, spaCy se utiliza para realizar un análisis de lenguaje natural sobre ellos, como detectar el idioma. En resumen, pandas maneja la parte de acceso 
+y manipulación de los datos, mientras que spaCy se encarga del análisis del contenido textual de esos datos.

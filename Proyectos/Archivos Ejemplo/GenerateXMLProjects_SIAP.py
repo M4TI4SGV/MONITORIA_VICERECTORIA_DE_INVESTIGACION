@@ -5,70 +5,94 @@ import spacy
 import xml.etree.ElementTree as ET
 import datetime
 
-# Define language detector 
+# Función para inicializar el detector de idiomas en spaCy
 def get_lang_detector(nlp, name):
     return LanguageDetector()
-#Excecute Natural Language processing in spanish to detect language
+
+# Cargar el modelo de procesamiento de lenguaje natural en español de spaCy
 nlp = spacy.load("es_core_news_sm")
-Language.factory("language_detector",func=get_lang_detector)
-nlp.add_pipe('language_detector',last=True)
+Language.factory("language_detector", func=get_lang_detector)
+# Añadir el detector de idiomas al pipeline de spaCy
+nlp.add_pipe('language_detector', last=True)
 
-
-#Create Element Tree root class
+# Crear el elemento raíz del árbol XML con los espacios de nombres adecuados
 upmprojects = ET.Element("upmprojects")
-upmprojects.set('xmlns',"v1.upmproject.pure.atira.dk")
-upmprojects.set('xmlns:ns2',"v3.commons.pure.atira.dk")
+upmprojects.set('xmlns', "v1.upmproject.pure.atira.dk")
+upmprojects.set('xmlns:ns2', "v3.commons.pure.atira.dk")
 
-#Upload the xlsx file for test
+# Cargar el archivo Excel que contiene los datos del proyecto
+dataframe1 = pd.read_excel(r"Profesores para Perfiles y Capacidades - SIAP Nuevo.xlsx", sheet_name='default_1', dtype=object)
 
-dataframe1 = pd.read_excel(r"Profesores para Perfiles y Capacidades - SIAP Nuevo.xlsx",sheet_name='default_1' ,dtype=object)
-#Read the unique columns
+# Leer las columnas únicas de 'id_unico' para identificar proyectos únicos
 column = dataframe1.id_unico.unique()
 
-#Iteration over unique projects
+# Iterar sobre cada proyecto único identificado por 'id_unico'
 for uid in column:
-    #Read information of the projects
-    temp_project = dataframe1[dataframe1["id_unico"]==uid]
+    # Filtrar el DataFrame para obtener la información del proyecto específico
+    temp_project = dataframe1[dataframe1["id_unico"] == uid]
+    
+    # Extraer el ID del proyecto
     temp_project_id = str(uid)
+    
+    # Asignar un tipo de proyecto, en este caso "research" (investigación)
     temp_project_type = "research"
+    
+    # Extraer el título del proyecto
     temp_project_title = temp_project["Titulo del proyecto"].unique()[0]
+    
+    # Detectar el idioma del título del proyecto
     temp_project_title_lang = nlp(temp_project_title)._.language['language']
+    
+    # Extraer la descripción del proyecto
     temp_project_description_t = temp_project["descripcion_final"].unique()[0]
 
+    # Extraer la organización que gestiona el proyecto
     temp_project_managing_org = temp_project["owner id"].unique()[0]
-    # temp_project_visibility = temp_project['visibilidad'].unique()[0]
+    
+    # Asignar visibilidad del proyecto, en este caso, se fija a "public"
     temp_project_visibility = "public"
+    
+    # Extraer la fecha de inicio y finalización del proyecto
     temp_project_startDate = temp_project['Fecha de inicio'].unique()[0]
     temp_project_endDate = temp_project['Fecha final'].unique()[0]
-    temp_project_participants = temp_project[["ID Empleado","Rol en el proyecto","Nombres", "Apellidos"]]
+    
+    # Extraer la información de los participantes en el proyecto
+    temp_project_participants = temp_project[["ID Empleado", "Rol en el proyecto", "Nombres", "Apellidos"]]
 
+    # Extraer información del patrocinador y tipo de financiador
     temp_project_ext_org = temp_project['Nombre patrocinador'].unique()[0]
     temp_project_int_org = temp_project['Tipo de financiador'].unique()[0]
 
-    #Detect empty fields and replacing with empty text
-    if (isinstance(temp_project_description_t,int) | isinstance(temp_project_description_t,float)):
+    # Comprobar si la descripción del proyecto es un número (int o float) y reemplazarla por una cadena vacía si es así
+    if (isinstance(temp_project_description_t, int) | isinstance(temp_project_description_t, float)):
         temp_project_description = ""
     else:
-        temp_project_description = temp_project_description_t.replace("\n"," ")
+        # Limpiar la descripción para remover saltos de línea
+        temp_project_description = temp_project_description_t.replace("\n", " ")
     
-    if temp_project_description=="":
+    # Si la descripción está vacía, establecer el idioma predeterminado a español
+    if temp_project_description == "":
         temp_project_description_lang = "es"
     else:
-         temp_project_description_lang = nlp(temp_project_description)._.language['language']
-         if (not(temp_project_description_lang=="es")) | (not(temp_project_description_lang=="en")):
-             temp_project_description_lang = "es"
+        # Detectar el idioma de la descripción del proyecto
+        temp_project_description_lang = nlp(temp_project_description)._.language['language']
+        
+        # Si el idioma detectado no es "es" o "en", forzar a "es"
+        if (not(temp_project_description_lang == "es")) | (not(temp_project_description_lang == "en")):
+            temp_project_description_lang = "es"
 
-    if temp_project_title_lang=="en":
+    # Asignar el país correspondiente al idioma del título
+    if temp_project_title_lang == "en":
         temp_project_title_country = "US"
-    elif temp_project_title_lang=="es":
+    elif temp_project_title_lang == "es":
         temp_project_title_country = "CO"
     else:
-        temp_project_title_country =""
+        temp_project_title_country = ""
 
-
-    if temp_project_description_lang=="en":
+    # Asignar el país correspondiente al idioma de la descripción
+    if temp_project_description_lang == "en":
         temp_project_description_country = "US"
-    elif temp_project_title_lang=="es":
+    elif temp_project_title_lang == "es":
         temp_project_description_country = "CO"
 
     #Create project
