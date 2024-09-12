@@ -1,0 +1,25 @@
+<v1:patentes xmlns="v1.patentes.pure.atira.dk" xmlns_v3="v3.commons.pure.atira.dk">
+    <v1:patente id="__ID__" type="__TIPO__">
+        <v1:title>
+            <v3:text lang="__LANG__" country="__COUNTRY__">__TITULO__</v3:text>
+        </v1:title>
+        <v1:description>
+            <v3:text lang="__LANG_DESC__" country="__COUNTRY_DESC__">__DESCRIPCION__</v3:text>
+        </v1:description>
+        <v1:jurisdiccion>__JURISDICCION__</v1:jurisdiccion>
+        <v1:numeroSolicitud>__NUMERO_SOLICITUD__</v1:numeroSolicitud>
+        <v1:numeroPrioridad>__NUMERO_PRIORIDAD__</v1:numeroPrioridad>
+        <v1:fechaSolicitud>__FECHA_SOLICITUD__</v1:fechaSolicitud>
+        <v1:titular>__TITULAR__</v1:titular>
+        <v1:inventoresAutores>
+            <v1:inventor>__INVENTOR__</v1:inventor>
+        </v1:inventoresAutores>
+        <v1:tipoVinculacionPUJ>__TIPO_VINCULACION_PUJ__</v1:tipoVinculacionPUJ>
+        <v1:estadoTramite>__ESTADO_TRAMITE__</v1:estadoTramite>
+        <v1:fechaConcesion>__FECHA_CONCESION__</v1:fechaConcesion>
+        <v1:facultad>__FACULTAD__</v1:facultad>
+        <v1:departamentoInstituto>__DEPARTAMENTO_INSTITUTO__</v1:departamentoInstituto>
+        <v1:grupoInvestigacion>__GRUPO_INVESTIGACION__</v1:grupoInvestigacion>
+        <v1:linkConsulta>__LINK_CONSULTA__</v1:linkConsulta>
+    </v1:patente>
+</v1:patentes>
