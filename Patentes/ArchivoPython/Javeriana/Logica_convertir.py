@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import spacy
 from spacy.language import Language
@@ -18,123 +19,109 @@ nlp = spacy.load("es_core_news_sm")
 Language.factory("language_detector", func=get_lang_detector)
 nlp.add_pipe('language_detector', last=True)
 
-# Función para crear el archivo XML a partir de cada fila de Excel
-def crear_archivo_xml(fila_datos, version="VX"):
-    logging.info(f"Procesando fila: {fila_datos['No.']}")
+# Cargar el archivo Excel que contiene los datos de las patentes desde la pestaña 'Hoja1'
+dataframe_patentes = pd.read_excel(r"pruebas.xlsx", sheet_name='Hoja1', dtype=object)
 
-    try:
-        # Crear el elemento raíz "patentes"
-        patentes = ET.Element("v1:patentes", xmlns="v1.patentes.pure.atira.dk", xmlns_v3="v3.commons.pure.atira.dk")
+# Verificar las columnas disponibles
+print("Columnas disponibles en la hoja de Excel:", dataframe_patentes.columns)
 
-        # Crear el elemento "patente"
-        patente = ET.SubElement(patentes, "v1:patente", id=f"patente_{fila_datos['No.']}", type=fila_datos['Tipo de activo de PI'].strip())
+# Crear la carpeta Resultado si no existe
+if not os.path.exists("Resultado"):
+    os.makedirs("Resultado")
 
-        # Detectar el idioma del título
-        titulo_patente = fila_datos['Titulo de la Patente'].strip()
-        titulo_patente_lang = nlp(titulo_patente)._.language['language']
+# Crear el elemento raíz del archivo XML que agrupará todas las patentes
+root = ET.Element("patentes")
 
-        # Crear el título de la patente
-        title = ET.SubElement(patente, "v1:title")
-        title_text = ET.SubElement(title, "v3:text", lang=titulo_patente_lang, country=fila_datos['JURISDICCIÓN'].strip())
-        title_text.text = titulo_patente
+# Función para aplicar indentación en el XML
+def indent(elem, level=0):
+    i = "\n" + level * "  "
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "  "
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+        for subelem in elem:
+            indent(subelem, level + 1)
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+    else:
+        if level and (not elem.tail or not elem.tail.strip()):
+            elem.tail = i
 
-        # Descripción de la patente
-        descripcion_patente = fila_datos['Descripcion'].strip()
-        descripcion_patente_lang = 'es' if not descripcion_patente else nlp(descripcion_patente)._.language['language']
+# Crear un conjunto para almacenar los títulos de las patentes ya procesadas
+titulos_procesados = set()
 
-        if descripcion_patente:
-            description = ET.SubElement(patente, "v1:description")
-            description_text = ET.SubElement(description, "v3:text", lang=descripcion_patente_lang, country=fila_datos['JURISDICCIÓN'].strip())
-            description_text.text = descripcion_patente
+# Iterar sobre todas las filas del DataFrame para procesar cada patente
+for index, fila in dataframe_patentes.iterrows():
+    print(f"Procesando la fila {index + 1} de {len(dataframe_patentes)}")
 
-        # Jurisdicción
-        jurisdiccion = ET.SubElement(patente, "v1:jurisdiccion")
-        jurisdiccion.text = fila_datos['JURISDICCIÓN'].strip()
+    # Extraer la información clave de la patente
+    temp_patente_id = str(fila['No.']) if pd.notna(fila['No.']) else "Desconocido"
+    temp_patente_titulo = str(fila['Titulo de la Patente']) if pd.notna(fila['Titulo de la Patente']) else "Sin título"
 
-        # Número de Solicitud
-        if pd.notna(fila_datos['Número de Solicitud']):
-            numero_solicitud = ET.SubElement(patente, "v1:numeroSolicitud")
-            numero_solicitud.text = fila_datos['Número de Solicitud'].strip()
+    # Verificar si la patente con el mismo título ya ha sido procesada
+    if temp_patente_titulo in titulos_procesados:
+        print(f"Patente con título '{temp_patente_titulo}' ya procesada, omitiendo...")
+        continue  # Si ya fue procesada, omitimos esta patente
 
-        # Número de Prioridad
-        if pd.notna(fila_datos['Número de Prioridad']):
-            numero_prioridad = ET.SubElement(patente, "v1:numeroPrioridad")
-            numero_prioridad.text = fila_datos['Número de Prioridad'].strip()
+    # Agregar el título de la patente al conjunto para marcarla como procesada
+    titulos_procesados.add(temp_patente_titulo)
 
-        # Fecha de Solicitud
-        if pd.notna(fila_datos['Fecha de Solicitud']):
-            fecha_solicitud = ET.SubElement(patente, "v1:fechaSolicitud")
-            fecha_solicitud.text = fila_datos['Fecha de Solicitud'].strip()
+    # Corregir el nombre de la columna para el tipo de activo
+    temp_patente_tipo = str(fila['Tipo de Activo De PI']) if pd.notna(fila['Tipo de Activo De PI']) else "Desconocido"
+    
+    temp_patente_jurisdiccion = str(fila['Jurisdiccion']) if pd.notna(fila['Jurisdiccion']) else "Desconocido"
+    
+    # Detectar el idioma del título de la patente
+    temp_patente_titulo_lang = nlp(temp_patente_titulo)._.language['language']
+    
+    # Extraer la descripción de la patente
+    temp_patente_descripcion = str(fila['Descripcion']) if pd.notna(fila['Descripcion']) else ""
+    
+    # Si la descripción está vacía, establecer el idioma predeterminado a español
+    if not temp_patente_descripcion:
+        temp_patente_descripcion_lang = "es"
+    else:
+        temp_patente_descripcion_lang = nlp(temp_patente_descripcion)._.language['language']
+        if temp_patente_descripcion_lang not in ["es", "en"]:
+            temp_patente_descripcion_lang = "es"
 
-        # Titular
-        if pd.notna(fila_datos['Titular']):
-            titular = ET.SubElement(patente, "v1:titular")
-            titular.text = fila_datos['Titular'].strip()
+    # Asignar el país correspondiente al idioma del título y la descripción
+    temp_patente_titulo_country = "CO" if temp_patente_titulo_lang == "es" else "US"
+    temp_patente_descripcion_country = "CO" if temp_patente_descripcion_lang == "es" else "US"
 
-        # Inventores / Autores
-        if pd.notna(fila_datos['INVENTORES/AUTORES']):
-            inventores_autores = ET.SubElement(patente, "v1:inventoresAutores")
-            for inventor in fila_datos['INVENTORES/AUTORES'].split("\n"):
-                inventor_elem = ET.SubElement(inventores_autores, "v1:inventor")
-                inventor_elem.text = inventor.strip()
+    # Crear el elemento de la patente dentro del archivo XML general
+    patente = ET.SubElement(root, "patente", id=temp_patente_id, type=temp_patente_tipo)
 
-        # Tipo de Vinculación PUJ
-        if pd.notna(fila_datos['Tipo Vinculación PUJ (Interno - Externo)']):
-            tipo_vinculacion = ET.SubElement(patente, "v1:tipoVinculacionPUJ")
-            tipo_vinculacion.text = fila_datos['Tipo Vinculación PUJ (Interno - Externo)'].strip()
+    # Crear el título de la patente
+    title = ET.SubElement(patente, "title")
+    ET.SubElement(title, "text", lang=temp_patente_titulo_lang, country=temp_patente_titulo_country).text = temp_patente_titulo
 
-        # Estado actual del trámite
-        if pd.notna(fila_datos['Estado actual del trámite']):
-            estado_tramite = ET.SubElement(patente, "v1:estadoTramite")
-            estado_tramite.text = fila_datos['Estado actual del trámite'].strip()
+    # Crear la descripción de la patente
+    if temp_patente_descripcion:
+        description = ET.SubElement(patente, "description")
+        ET.SubElement(description, "text", lang=temp_patente_descripcion_lang, country=temp_patente_descripcion_country).text = temp_patente_descripcion
 
-        # Fecha de Concesión
-        if pd.notna(fila_datos['Fecha de concesión']):
-            fecha_concesion = ET.SubElement(patente, "v1:fechaConcesion")
-            fecha_concesion.text = fila_datos['Fecha de concesión'].strip()
+    # Añadir otros elementos de la patente (ej. Jurisdicción)
+    jurisdiccion = ET.SubElement(patente, "jurisdiccion")
+    jurisdiccion.text = temp_patente_jurisdiccion
 
-        # Facultad
-        if pd.notna(fila_datos['Facultad']):
-            facultad = ET.SubElement(patente, "v1:facultad")
-            facultad.text = fila_datos['Facultad'].strip()
+    # Añadir otros datos según sea necesario, convirtiendo a cadena cada valor
+    if pd.notna(fila['Numero de Solicitud ']):
+        numero_solicitud = ET.SubElement(patente, "numeroSolicitud")
+        numero_solicitud.text = str(fila['Numero de Solicitud '])
 
-        # Departamento / Instituto
-        if pd.notna(fila_datos['Departamento/Instituto']):
-            departamento_instituto = ET.SubElement(patente, "v1:departamentoInstituto")
-            departamento_instituto.text = fila_datos['Departamento/Instituto'].strip()
+# Aplicar indentación al XML
+indent(root)
 
-        # Grupo de Investigación
-        if pd.notna(fila_datos['Grupo De Investigación']):
-            grupo_investigacion = ET.SubElement(patente, "v1:grupoInvestigacion")
-            grupo_investigacion.text = fila_datos['Grupo De Investigación'].strip()
+# Guardar todas las patentes en un único archivo XML
+hoy = datetime.datetime.now().strftime("%Y_%m_%d")
+nombre_archivo = f"{hoy}_patentes.xml"
 
-        # Link de Consulta
-        if pd.notna(fila_datos.get('Link De Consulta', None)):
-            link_consulta = ET.SubElement(patente, "v1:linkConsulta")
-            link_consulta.text = fila_datos['Link De Consulta']
+tree = ET.ElementTree(root)
+tree.write(f"Resultado/{nombre_archivo}", encoding="utf-8", xml_declaration=True)
 
-        # Guardar el archivo XML en la carpeta "Resultado"
-        hoy = datetime.datetime.now().strftime("%Y_%m_%d")
-        nombre_archivo = f"{hoy}_patente_{fila_datos['No.']}.xml"
-        tree = ET.ElementTree(patentes)
+logging.info(f"Archivo XML generado: {nombre_archivo}")
 
-        with open(f"Resultado/{nombre_archivo}", "wb") as archivo:
-            tree.write(archivo, encoding="utf-8", xml_declaration=True)
+print("Proceso de generación de XML completado.")
 
-        logging.info(f"Archivo XML generado: {nombre_archivo}")
-        return nombre_archivo
-
-    except Exception as e:
-        logging.error(f"Error procesando la fila {fila_datos['No.']}: {str(e)}")
-        raise
-
-# Leer el archivo Excel y cargar la plantilla XML
-data = pd.read_excel('Productos de PI Javeriana.xlsx')
-
-# Iterar sobre cada fila para generar los archivos XML
-for index, fila in data.iterrows():
-    try:
-        archivo_xml = crear_archivo_xml(fila)
-        print(f"Generado: {archivo_xml}")
-    except Exception as e:
-        logging.error(f"Error procesando la fila {index}: {str(e)}")
