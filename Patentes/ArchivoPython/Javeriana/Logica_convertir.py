@@ -6,6 +6,7 @@ from spacy_langdetect import LanguageDetector
 import xml.etree.ElementTree as ET
 import logging
 import datetime
+import uuid
 
 # Inicializar el log
 logging.basicConfig(filename='xml_conversion.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -30,7 +31,10 @@ if not os.path.exists("Resultado"):
     os.makedirs("Resultado")
 
 # Crear el elemento raíz del archivo XML que agrupará todas las patentes
-root = ET.Element("patentes")
+root = ET.Element("patentes", {
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "xsi:schemaLocation": "https://puj-staging.elsevierpure.com/ws/api/524 https://puj-staging.elsevierpure.com/ws/api/524/xsd/schema1.xsd"
+})
 
 # Función para aplicar indentación en el XML
 def indent(elem, level=0):
@@ -67,61 +71,175 @@ for index, fila in dataframe_patentes.iterrows():
     # Agregar el título de la patente al conjunto para marcarla como procesada
     titulos_procesados.add(temp_patente_titulo)
 
-    # Corregir el nombre de la columna para el tipo de activo
-    temp_patente_tipo = str(fila['Tipo de Activo De PI']) if pd.notna(fila['Tipo de Activo De PI']) else "Desconocido"
+    # Generar un UUID único para la patente
+    temp_uuid = str(uuid.uuid4())
     
-    temp_patente_jurisdiccion = str(fila['Jurisdiccion']) if pd.notna(fila['Jurisdiccion']) else "Desconocido"
-    
-    # Detectar el idioma del título de la patente
-    temp_patente_titulo_lang = nlp(temp_patente_titulo)._.language['language']
-    
-    # Extraer la descripción de la patente
-    temp_patente_descripcion = str(fila['Descripcion']) if pd.notna(fila['Descripcion']) else ""
-    
-    # Si la descripción está vacía, establecer el idioma predeterminado a español
-    if not temp_patente_descripcion:
-        temp_patente_descripcion_lang = "es"
-    else:
-        temp_patente_descripcion_lang = nlp(temp_patente_descripcion)._.language['language']
-        if temp_patente_descripcion_lang not in ["es", "en"]:
-            temp_patente_descripcion_lang = "es"
-
-    # Asignar el país correspondiente al idioma del título y la descripción
-    temp_patente_titulo_country = "CO" if temp_patente_titulo_lang == "es" else "US"
-    temp_patente_descripcion_country = "CO" if temp_patente_descripcion_lang == "es" else "US"
-
     # Crear el elemento de la patente dentro del archivo XML general
-    patente = ET.SubElement(root, "patente", id=temp_patente_id, type=temp_patente_tipo)
+    patent = ET.SubElement(root, "patent", {
+        "uuid": temp_uuid,
+        "pureId": temp_patente_id,
+        "externalId": temp_patente_id,
+        "externalIdSource": "espacenet"
+    })
 
     # Crear el título de la patente
-    title = ET.SubElement(patente, "title")
-    ET.SubElement(title, "text", lang=temp_patente_titulo_lang, country=temp_patente_titulo_country).text = temp_patente_titulo
+    title = ET.SubElement(patent, "title", {"formatted": "true"})
+    ET.SubElement(title, "text").text = temp_patente_titulo
+
+    # Crear el tipo de la patente
+    patent_type = ET.SubElement(patent, "type", {
+        "pureId": "13611",
+        "uri": "/dk/atira/pure/researchoutput/researchoutputtypes/patent/patent"
+    })
+    term = ET.SubElement(patent_type, "term", {"formatted": "false"})
+    ET.SubElement(term, "text", {"locale": "en_US"}).text = "Invention patent"
+    ET.SubElement(term, "text", {"locale": "es_CO"}).text = "Patente de Invención"
+
+    # Categoría de la patente
+    category = ET.SubElement(patent, "category", {
+        "pureId": "4255",
+        "uri": "/dk/atira/pure/researchoutput/category/research"
+    })
+    category_term = ET.SubElement(category, "term", {"formatted": "false"})
+    ET.SubElement(category_term, "text", {"locale": "en_US"}).text = "Research"
+    ET.SubElement(category_term, "text", {"locale": "es_CO"}).text = "Investigación"
 
     # Crear la descripción de la patente
-    if temp_patente_descripcion:
-        description = ET.SubElement(patente, "description")
-        ET.SubElement(description, "text", lang=temp_patente_descripcion_lang, country=temp_patente_descripcion_country).text = temp_patente_descripcion
+    if pd.notna(fila['Descripcion']):
+        abstract = ET.SubElement(patent, "abstract", {"formatted": "true"})
+        abstract_text = ET.SubElement(abstract, "text", {"locale": "es_CO"})
+        abstract_text.text = f"<![CDATA[{fila['Descripcion']}]]>"
 
-    # Añadir otros elementos de la patente (ej. Jurisdicción)
-    jurisdiccion = ET.SubElement(patente, "jurisdiccion")
-    jurisdiccion.text = temp_patente_jurisdiccion
+    # Añadir los datos de publicación
+    publication_statuses = ET.SubElement(patent, "publicationStatuses")
+    publication_status = ET.SubElement(publication_statuses, "publicationStatus", {
+        "current": "true",
+        "pureId": temp_patente_id,
+        "externalId": temp_patente_id,
+        "externalIdSource": "espacenet"
+    })
+    pub_status = ET.SubElement(publication_status, "publicationStatus", {
+        "pureId": "1017",
+        "uri": "/dk/atira/pure/researchoutput/status/published"
+    })
+    term = ET.SubElement(pub_status, "term", {"formatted": "false"})
+    ET.SubElement(term, "text", {"locale": "en_US"}).text = "Published"
+    ET.SubElement(term, "text", {"locale": "es_CO"}).text = "Publicada"
 
-    # Añadir otros datos según sea necesario, convirtiendo a cadena cada valor
+    # Fecha de publicación (si está presente)
+    if pd.notna(fila['Fecha de Solicitud']):
+        publication_date = ET.SubElement(publication_status, "publicationDate")
+        fecha_solicitud = str(fila['Fecha de Solicitud'])
+        if fecha_solicitud:
+            date_parts = fecha_solicitud.split("-")
+            if len(date_parts) == 3:
+                ET.SubElement(publication_date, "year").text = date_parts[0]
+                ET.SubElement(publication_date, "month").text = date_parts[1]
+                ET.SubElement(publication_date, "day").text = date_parts[2]
+
+    # Idioma
+    language = ET.SubElement(patent, "language", {"pureId": "240", "uri": "/dk/atira/pure/core/languages/es_CO"})
+    language_term = ET.SubElement(language, "term", {"formatted": "false"})
+    ET.SubElement(language_term, "text", {"locale": "en_US"}).text = "Spanish"
+    ET.SubElement(language_term, "text", {"locale": "es_CO"}).text = "Español"
+
+    # Añadir jurisdicción
+    if pd.notna(fila['Jurisdiccion']):
+        jurisdiccion = ET.SubElement(patent, "jurisdiccion")
+        jurisdiccion.text = fila['Jurisdiccion']
+
+    # Añadir número de patente
     if pd.notna(fila['Numero de Solicitud ']):
-        numero_solicitud = ET.SubElement(patente, "numeroSolicitud")
-        numero_solicitud.text = str(fila['Numero de Solicitud '])
+        patent_number = ET.SubElement(patent, "patentNumber")
+        patent_number.text = str(fila['Numero de Solicitud '])
+
+    # Asociaciones de personas (inventores)
+    if pd.notna(fila['Inventores/Autores']):
+        person_associations = ET.SubElement(patent, "personAssociations")
+        for inventor in str(fila['Inventores/Autores']).split(","):
+            person_association = ET.SubElement(person_associations, "personAssociation", {"pureId": temp_patente_id})
+            external_person = ET.SubElement(person_association, "externalPerson", {"uuid": str(uuid.uuid4())})
+            ET.SubElement(external_person, "name").text = inventor
+            person_role = ET.SubElement(person_association, "personRole", {
+                "pureId": "13480",
+                "uri": "/dk/atira/pure/researchoutput/roles/patent/inventor"
+            })
+            term = ET.SubElement(person_role, "term", {"formatted": "false"})
+            ET.SubElement(term, "text", {"locale": "en_US"}).text = "Inventor"
+            ET.SubElement(term, "text", {"locale": "es_CO"}).text = "Inventor"
+
+        # Unidades organizacionales
+    organisational_units = ET.SubElement(patent, "organisationalUnits")
+
+    if pd.notna(fila['Facultad']):
+        organisational_unit = ET.SubElement(organisational_units, "organisationalUnit", {
+            "uuid": str(uuid.uuid4()),
+            "externalId": "Facultad",
+            "externalIdSource": "synchronisedOrganisation",
+            "externallyManaged": "true"
+        })
+        ET.SubElement(organisational_unit, "name", {"formatted": "false"}).text = fila['Facultad']
+        unit_type = ET.SubElement(organisational_unit, "type", {
+            "pureId": "1079",
+            "uri": "/dk/atira/pure/organisation/organisationtypes/organisation/department"
+        })
+        term = ET.SubElement(unit_type, "term", {"formatted": "false"})
+        ET.SubElement(term, "text", {"locale": "en_US"}).text = "Department"
+        ET.SubElement(term, "text", {"locale": "es_CO"}).text = "Departamento"
+
+    if pd.notna(fila['Departamento/Instituto']):
+        organisational_unit = ET.SubElement(organisational_units, "organisationalUnit", {
+            "uuid": str(uuid.uuid4()),
+            "externalId": "Departamento/Instituto",
+            "externalIdSource": "synchronisedOrganisation",
+            "externallyManaged": "true"
+        })
+        ET.SubElement(organisational_unit, "name", {"formatted": "false"}).text = fila['Departamento/Instituto']
+        unit_type = ET.SubElement(organisational_unit, "type", {
+            "pureId": "1079",
+            "uri": "/dk/atira/pure/organisation/organisationtypes/organisation/department"
+        })
+        term = ET.SubElement(unit_type, "term", {"formatted": "false"})
+        ET.SubElement(term, "text", {"locale": "en_US"}).text = "Department"
+        ET.SubElement(term, "text", {"locale": "es_CO"}).text = "Departamento"
+
+    # Añadir datos adicionales
+    if pd.notna(fila['IPC/CIP']):
+        ipc = ET.SubElement(patent, "ipc")
+        ipc.text = fila['IPC/CIP']
+
+    if pd.notna(fila['Estado actual del tramite']):
+        estado_tramite = ET.SubElement(patent, "estadoTramite")
+        estado_tramite.text = fila['Estado actual del tramite']
+
+    if pd.notna(fila['Fecha de concesion']):
+        fecha_concesion = ET.SubElement(patent, "fechaConcesion")
+        fecha_concesion.text = str(fila['Fecha de concesion'])
+
+    # Añadir el titular
+    if pd.notna(fila['Titular']):
+        titular = ET.SubElement(patent, "titular")
+        titular.text = fila['Titular']
+
+    # Añadir el grupo de investigación
+    if pd.notna(fila['Grupo De Investigacion']):
+        grupo_investigacion = ET.SubElement(patent, "grupoInvestigacion")
+        grupo_investigacion.text = fila['Grupo De Investigacion']
+
+    # Añadir link de consulta
+    if pd.notna(fila['Link De Consulta']):
+        link_consulta = ET.SubElement(patent, "linkConsulta")
+        link_consulta.text = fila['Link De Consulta']
 
 # Aplicar indentación al XML
 indent(root)
 
 # Guardar todas las patentes en un único archivo XML
 hoy = datetime.datetime.now().strftime("%Y_%m_%d")
-nombre_archivo = f"{hoy}_patentes.xml"
+nombre_archivo = f"Resultado/{hoy}_patentes.xml"
 
 tree = ET.ElementTree(root)
-tree.write(f"Resultado/{nombre_archivo}", encoding="utf-8", xml_declaration=True)
+tree.write(nombre_archivo, encoding="utf-8", xml_declaration=True)
 
 logging.info(f"Archivo XML generado: {nombre_archivo}")
-
-print("Proceso de generación de XML completado.")
-
+print(f"Proceso de generación de XML completado. Archivo generado: {nombre_archivo}")
