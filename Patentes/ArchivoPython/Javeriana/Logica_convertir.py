@@ -29,11 +29,16 @@ print("Columnas disponibles en la hoja de Excel:", dataframe_patentes.columns)
 if not os.path.exists("Resultado"):
     os.makedirs("Resultado")
 
-# Crear el elemento raíz del archivo XML que agrupará todas las patentes
-root = ET.Element("patentes", {
+# Crear el elemento raíz del archivo XML que agrupará todas las publicaciones
+root = ET.Element("publications", {
     "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
     "xsi:schemaLocation": "https://puj-staging.elsevierpure.com/ws/api/524 https://puj-staging.elsevierpure.com/ws/api/524/xsd/schema1.xsd"
 })
+
+# Función auxiliar para crear etiquetas <ns2:text>
+def create_ns2_text(parent, text_value):
+    ns2_text = ET.SubElement(parent, "ns2:text")
+    ns2_text.text = text_value
 
 # Función para aplicar indentación en el XML
 def indent(elem, level=0):
@@ -60,6 +65,12 @@ for index, fila in dataframe_patentes.iterrows():
 
     # Extraer la información clave de la patente
     temp_patente_titulo = str(fila['Titulo de la Patente']) if pd.notna(fila['Titulo de la Patente']) else "Sin título"
+    tipo_activo = str(fila['Tipo de Activo De PI']) if pd.notna(fila['Tipo de Activo De PI']) else ""
+
+    # Filtrar para procesar solo los tipos "Patente - Invención" y "Patente - PCT"
+    if tipo_activo not in ["Patente - Invención", "Patente - PCT"]:
+        print(f"Omitiendo tipo de activo: {tipo_activo}")
+        continue
 
     # Verificar si la patente con el mismo título ya ha sido procesada
     if temp_patente_titulo in titulos_procesados:
@@ -74,151 +85,175 @@ for index, fila in dataframe_patentes.iterrows():
 
     # Crear el título de la patente
     title = ET.SubElement(patent, "title", {"formatted": "true"})
-    ET.SubElement(title, "text").text = temp_patente_titulo
+    create_ns2_text(title, temp_patente_titulo)
 
-    # Crear el tipo de la patente
-    patent_type = ET.SubElement(patent, "type")
-    term = ET.SubElement(patent_type, "term", {"formatted": "false"})
-    ET.SubElement(term, "text", {"locale": "en_US"}).text = "Invention patent"
-    ET.SubElement(term, "text", {"locale": "es_CO"}).text = "Patente de Invención"
+    # Verificar si hay descripción (abstract) y crear el nodo abstract para cada patente
+    if pd.notna(fila['Descripcion']) and fila['Descripcion'].strip() != "":
+        # Detectar el idioma del abstract
+        doc = nlp(fila['Descripcion'])
+        detected_language = doc._.language['language']  # Detecta el idioma con spacy
+        
+        # Asignar el país en función del idioma detectado
+        country = "CO" if detected_language == "es" else "GB"  # Asume CO para español y GB para inglés
 
-    # Categoría de la patente
-    category = ET.SubElement(patent, "category")
-    category_term = ET.SubElement(category, "term", {"formatted": "false"})
-    ET.SubElement(category_term, "text", {"locale": "en_US"}).text = "Research"
-    ET.SubElement(category_term, "text", {"locale": "es_CO"}).text = "Investigación"
-
-    # Crear la descripción de la patente
-    if pd.notna(fila['Descripcion']):
-        abstract = ET.SubElement(patent, "abstract", {"formatted": "false"})
-        abstract_text = ET.SubElement(abstract, "text", {"locale": "es_CO"})
-        abstract_text.text = f"<![CDATA[{fila['Descripcion']}]]>"
-
+        # Crear el abstract con el ns2:text con los atributos detectados
+        abstract = ET.SubElement(patent, "abstract")
+        abstract_text = ET.SubElement(abstract, "ns2:text", {
+            "lang": detected_language,
+            "country": country
+        })
+        
+        abstract_text.text = fila['Descripcion']  # Añadir la descripción sin formato especial
+    else:
+        # Si no hay descripción, puedes añadir un abstract genérico o vacío si es necesario
+        print(f"Advertencia: No hay descripción para la patente en la fila {index + 1}")
+        abstract = ET.SubElement(patent, "abstract")
+        abstract_text = ET.SubElement(abstract, "ns2:text", {
+            "lang": "es",  # Asume español por defecto si no hay descripción
+            "country": "CO"
+        })
+        abstract_text.text = "Descripción no disponible"
+    
     # Añadir los datos de publicación
     publication_statuses = ET.SubElement(patent, "publicationStatuses")
-    publication_status = ET.SubElement(publication_statuses, "publicationStatus", {"current": "true"})
-    pub_status = ET.SubElement(publication_status, "publicationStatus")
-    term = ET.SubElement(pub_status, "term", {"formatted": "false"})
-    ET.SubElement(term, "text", {"locale": "en_US"}).text = "Published"
-    ET.SubElement(term, "text", {"locale": "es_CO"}).text = "Publicada"
 
-    # Fecha de publicación (eliminar la hora)
+    # Crear el elemento publicationStatus con el atributo uri
+    publication_status = ET.SubElement(publication_statuses, "publicationStatus", {"uri": "/dk/atira/pure/researchoutput/status/published"})
+    term = ET.SubElement(publication_status, "term", {"formatted": "false"})
+
+    # Añadir el estado de publicación en inglés y español
+    create_ns2_text(term, "Published")  # Inglés
+    create_ns2_text(term, "Publicada")  # Español
+
+    # Fecha de publicación
     if pd.notna(fila['Fecha de Solicitud']):
         publication_date = ET.SubElement(publication_status, "publicationDate")
         fecha_solicitud = str(fila['Fecha de Solicitud']).split(" ")[0]  # Elimina la hora
         date_parts = fecha_solicitud.split("-")
+        
         if len(date_parts) == 3:
-            ET.SubElement(publication_date, "year").text = date_parts[0]
-            ET.SubElement(publication_date, "month").text = date_parts[1]
-            ET.SubElement(publication_date, "day").text = date_parts[2]
+            # Añadir los elementos con ns2 para year, month, y day
+            create_ns2_text(publication_date, date_parts[0])  # Año
+            create_ns2_text(publication_date, date_parts[1])  # Mes
+            create_ns2_text(publication_date, date_parts[2])  # Día
 
     # Idioma
     language = ET.SubElement(patent, "language")
     language_term = ET.SubElement(language, "term", {"formatted": "false"})
-    ET.SubElement(language_term, "text", {"locale": "en_US"}).text = "Spanish"
-    ET.SubElement(language_term, "text", {"locale": "es_CO"}).text = "Español"
+    create_ns2_text(language_term, "Spanish")
+    create_ns2_text(language_term, "Español")
 
     # Cambiar jurisdicción a country
     if pd.notna(fila['Jurisdiccion']):
         country = ET.SubElement(patent, "country")
         term = ET.SubElement(country, "term", {"formatted": "false"})
-        ET.SubElement(term, "text", {"locale": "en_US"}).text = fila['Jurisdiccion']
-        ET.SubElement(term, "text", {"locale": "es_CO"}).text = fila['Jurisdiccion']
+        create_ns2_text(term, fila['Jurisdiccion'])
+        create_ns2_text(term, fila['Jurisdiccion'])
 
     # Añadir número de patente
     if pd.notna(fila['Numero de Solicitud ']):
         patent_number = ET.SubElement(patent, "patentNumber")
-        patent_number.text = str(fila['Numero de Solicitud '])
+    
+        # Eliminar saltos de línea y espacios adicionales
+        numero_solicitud_limpio = str(fila['Numero de Solicitud ']).replace("\n", " ").strip()
+        create_ns2_text(patent_number, numero_solicitud_limpio)
 
     # Asociaciones de personas (inventores)
     if pd.notna(fila['Inventores/Autores']):
-        person_associations = ET.SubElement(patent, "personAssociations")
+        persons = ET.SubElement(patent, "persons")  # Cambia personAssociations por persons
         inventores = str(fila['Inventores/Autores']).split(",")
-        tipo_vinculacion = fila.get('Tipo Vinculacion PUJ (Interno - Externo)', 'Externo')
 
         for inventor in inventores:
-            person_association = ET.SubElement(person_associations, "personAssociation")  # Sin el atributo pureId
-            
-            if tipo_vinculacion == "Interno":
-                external_person = ET.SubElement(person_association, "externalPerson", {
-                    "externallyManaged": "true"
-                })
-                ET.SubElement(external_person, "name").text = inventor
-            else:
-                # Si es externo
-                external_person = ET.SubElement(person_association, "externalPerson")
-                ET.SubElement(external_person, "type", {
-                    "uri": "/dk/atira/pure/externalperson/externalpersontypes/externalperson/externalperson"
-                })
-                term = ET.SubElement(external_person, "term", {"formatted": "false"})
-                ET.SubElement(term, "text", {"locale": "en_US"}).text = "External person"
-                ET.SubElement(term, "text", {"locale": "es_CO"}).text = "Persona externa"
-                # Añadir nombres de la persona externa
-                name_element = ET.SubElement(external_person, "name")
-                ET.SubElement(name_element, "firstName").text = inventor.split()[0] if inventor else ""
-                ET.SubElement(name_element, "lastName").text = " ".join(inventor.split()[1:]) if len(inventor.split()) > 1 else ""
+            # Asegurarnos de quitar espacios en blanco innecesarios
+            inventor = inventor.strip()
 
-                # Unidades organizacionales
+            # Separar el nombre completo en una lista de palabras
+            nombres = inventor.split()
+
+            # Verificar que haya al menos un nombre y un apellido
+            if len(nombres) > 2:
+                # Si hay más de 2 palabras, las dos últimas se consideran apellidos
+                first_name = " ".join(nombres[:-2])  # Todos los elementos menos los últimos dos son nombres
+                last_name = " ".join(nombres[-2:])   # Los últimos dos elementos son apellidos
+            elif len(nombres) == 2:
+                # Si hay exactamente dos palabras, una es el nombre y otra el apellido
+                first_name = nombres[0]
+                last_name = nombres[1]
+            else:
+                # Si solo hay una palabra, la asignamos como nombre y dejamos el apellido vacío
+                first_name = nombres[0]
+                last_name = ""
+
+            # Crear la estructura de author y person para cada inventor
+            author = ET.SubElement(persons, "author")
+            role = ET.SubElement(author, "role")
+            role.text = "inventor"  # Asignamos el rol de inventor
+
+            person = ET.SubElement(author, "person")
+            first_name_elem = ET.SubElement(person, "firstName")
+            last_name_elem = ET.SubElement(person, "lastName")
+
+            first_name_elem.text = first_name  # Primer nombre o nombres
+            last_name_elem.text = last_name    # Apellido o apellidos
+
+    # Unidades organizacionales
     organisational_units = ET.SubElement(patent, "organisationalUnits")
 
     if pd.notna(fila['Facultad']):
         organisational_unit = ET.SubElement(organisational_units, "organisationalUnit")
-        ET.SubElement(organisational_unit, "name", {"formatted": "false"}).text = fila['Facultad']
+        name = ET.SubElement(organisational_unit, "name", {"formatted": "false"})
+        create_ns2_text(name, fila['Facultad'])
         unit_type = ET.SubElement(organisational_unit, "type")
         term = ET.SubElement(unit_type, "term", {"formatted": "false"})
-        ET.SubElement(term, "text", {"locale": "en_US"}).text = "Department"
-        ET.SubElement(term, "text", {"locale": "es_CO"}).text = "Departamento"
+        create_ns2_text(term, "Department")
+        create_ns2_text(term, "Departamento")
 
     if pd.notna(fila['Departamento/Instituto']):
         organisational_unit = ET.SubElement(organisational_units, "organisationalUnit")
-        ET.SubElement(organisational_unit, "name", {"formatted": "false"}).text = fila['Departamento/Instituto']
+        name = ET.SubElement(organisational_unit, "name", {"formatted": "false"})
+        create_ns2_text(name, fila['Departamento/Instituto'])
         unit_type = ET.SubElement(organisational_unit, "type")
         term = ET.SubElement(unit_type, "term", {"formatted": "false"})
-        ET.SubElement(term, "text", {"locale": "en_US"}).text = "Department"
-        ET.SubElement(term, "text", {"locale": "es_CO"}).text = "Departamento"
+        create_ns2_text(term, "Department")
+        create_ns2_text(term, "Departamento")
 
-    # Añadir datos adicionales
-    if pd.notna(fila['IPC/CIP']):
-        ipc = ET.SubElement(patent, "ipc")
-        ipc.text = fila['IPC/CIP']
-
-    if pd.notna(fila['Estado actual del tramite']):
-        estado_tramite = ET.SubElement(patent, "estadoTramite")
-        estado_tramite.text = fila['Estado actual del tramite']
-
-    if pd.notna(fila['Fecha de concesion']):
-        fecha_concesion = ET.SubElement(patent, "priorityDate")  # Cambia el nombre a priorityDate
-        fecha_concesion.text = str(fila['Fecha de concesion']).split(" ")[0]  # Elimina la hora
-
-    # Añadir el titular (separado en organizacionales)
+    # Añadir organizaciones
     if pd.notna(fila['Titular']):
-        organisational_units = ET.SubElement(patent, "organisationalUnits")
+        organisations = ET.SubElement(patent, "organisations")
         for titular in str(fila['Titular']).split("-"):
-            organisational_unit = ET.SubElement(organisational_units, "organisationalUnit")
-            ET.SubElement(organisational_unit, "name", {"formatted": "false"}).text = titular.strip()
-            unit_type = ET.SubElement(organisational_unit, "type")
-            term = ET.SubElement(unit_type, "term", {"formatted": "false"})
-            ET.SubElement(term, "text", {"locale": "en_US"}).text = "Department"
-            ET.SubElement(term, "text", {"locale": "es_CO"}).text = "Departamento"
+            organisation = ET.SubElement(organisations, "organisation")
+            name = ET.SubElement(organisation, "name")
+            create_ns2_text(name, titular.strip())
 
     # Añadir el grupo de investigación (en 2 partes)
     if pd.notna(fila['Grupo De Investigacion']):
         grupo_investigacion = fila['Grupo De Investigacion']
         organisational_unit = ET.SubElement(organisational_units, "organisationalUnit")
-        ET.SubElement(organisational_unit, "name", {"formatted": "false"}).text = grupo_investigacion
+        name = ET.SubElement(organisational_unit, "name", {"formatted": "false"})
+        create_ns2_text(name, grupo_investigacion)
         unit_type = ET.SubElement(organisational_unit, "type")
         term = ET.SubElement(unit_type, "term", {"formatted": "false"})
-        ET.SubElement(term, "text", {"locale": "en_US"}).text = "Department"
-        ET.SubElement(term, "text", {"locale": "es_CO"}).text = "Departamento"
+        create_ns2_text(term, "Department")
+        create_ns2_text(term, "Departamento")
 
-        # Managing organization
-        managing_unit = ET.SubElement(patent, "managingOrganisationalUnit")
-        ET.SubElement(managing_unit, "name", {"formatted": "false"}).text = grupo_investigacion
+        # Managing organization (hardcoded to PUJAV)
+        managing_unit = ET.SubElement(patent, "managingOrganisationalUnit", {
+            "externalId": "PUJAV",
+            "externallyManaged": "true"
+        })
+        name = ET.SubElement(managing_unit, "name", {"formatted": "false"})
+        create_ns2_text(name, "Pontificia Universidad Javeriana - Bogotá")
+        unit_type = ET.SubElement(managing_unit, "type", {
+            "uri": "/dk/atira/pure/organisation/organisationtypes/organisation/university"
+        })
+        term = ET.SubElement(unit_type, "term", {"formatted": "false"})
+        create_ns2_text(term, "University")
+        create_ns2_text(term, "Universidad")
 
     # Añadir link de consulta
     if pd.notna(fila['Link De Consulta']):
         link_consulta = ET.SubElement(patent, "linkConsulta")
-        link_consulta.text = fila['Link De Consulta']
+        create_ns2_text(link_consulta, fila['Link De Consulta'])
 
 # Aplicar indentación al XML
 indent(root)
