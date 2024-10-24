@@ -1,0 +1,3124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<publications xmlns="v1.publication-import.base-uk.pure.atira.dk" xmlns:ns2="v3.commons.pure.atira.dk">
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Composición de Oligopéptidos Diseñados a Partir de Secuencias de los Alergenos del Grupo 1 de Ácaros Intradomiciliarios</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Universidad del Norte</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>9027540</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Oligopeptidos sinteticos diseñados a partir de cisteinproteasas de acaros y metodos para la produccion de anticuerpos policlonales igy para la deteccion de acaros intradomiciliarios.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Elkin Antonio</firstName>
+          <lastName>Navarro Quiroz</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Luis</firstName>
+          <lastName>Alejandro Barrera</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2009</ns2:year>
+          <ns2:month>03</ns2:month>
+          <ns2:day>17</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2013-01-04</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - PCT">
+    <title>
+      <ns2:text>Oligopéptidos sintéticos diseñados a partir de cisteinproteasas de ácaros y método para la producción de anticuerpos policlonales IgY para la detección de ácaros intradomiciliarios</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Universidad del Norte</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>PCT/IB2010/000554  WO/2010/146425</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Oligopeptidos sinteticos diseñados a partir de cisteinproteasas de acaros y metodos para la produccion de anticuerpos policlonales igy para la deteccion de acaros intradomiciliarios.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Elkin Antonio</firstName>
+          <lastName>Navarro Quiroz</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Luis</firstName>
+          <lastName>Alejandro Barrera</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2010</ns2:year>
+          <ns2:month>03</ns2:month>
+          <ns2:day>17</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Oligopeptidos sinteticos diseñados a partir de cisteinproteasas de acaros y metodos para la produccion de anticuerpos policlonales igy para la deteccion de acaros intradomiciliarios.</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Universidad del Norte</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>MX/a/2011/009862  Número de registro: 345018</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Oligopeptidos sinteticos diseñados a partir de cisteinproteasas de acaros y metodos para la produccion de anticuerpos policlonales igy para la deteccion de acaros intradomiciliarios.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Elkin Antonio</firstName>
+          <lastName>Navarro Quiroz</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Luis</firstName>
+          <lastName>Alejandro Barrera</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date />
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2017-01-13</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>"Synthetic oligopeptides designed from mite cysteine proteases and methods for the production of IGY POLYCLONAL ANTIBODIES FOR THE DETECTION OF INTRADOMICILIARY MITES"</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Universidad del Norte</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>13256918</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Oligopeptidos sinteticos diseñados a partir de cisteinproteasas de acaros y metodos para la produccion de anticuerpos policlonales igy para la deteccion de acaros intradomiciliarios.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Elkin Antonio</firstName>
+          <lastName>Navarro Quiroz</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Luis</firstName>
+          <lastName>Alejandro Barrera</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date />
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2016-01-01</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>OLIGOPEPTIDOS SINTETICOS DISEÑADOS A PARTIR DE CISTEINPROTEASAS DE ACAROS Y METODOS PARA LA PRODUCCION DE ANTICUERPOS POLICLONALES IGY PARA LA DETECCION DE
+ACAROS INTRADCMICILIAR/OS.</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Universidad del Norte</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>EP2431381</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Oligopeptidos sinteticos diseñados a partir de cisteinproteasas de acaros y metodos para la produccion de anticuerpos policlonales igy para la deteccion de acaros intradomiciliarios.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Elkin Antonio</firstName>
+          <lastName>Navarro Quiroz</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Luis</firstName>
+          <lastName>Alejandro Barrera</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2017</ns2:year>
+          <ns2:month>03</ns2:month>
+          <ns2:day>10</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2022-06-22</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Método y composición inmunoquímica para la detección de alérgenos  de ácaros usando anticuerpos policlonales IgY</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Universidad del Norte</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>10-24590</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Oligopeptidos sinteticos diseñados a partir de cisteinproteasas de acaros y metodos para la produccion de anticuerpos policlonales igy para la deteccion de acaros intradomiciliarios.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Elkin Antonio</firstName>
+          <lastName>Navarro Quiroz</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Luis</firstName>
+          <lastName>Alejandro Barrera</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2010</ns2:year>
+          <ns2:month>03</ns2:month>
+          <ns2:day>02</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2013-12-17</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Avión no tripulado para inspección de infraestructuras</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Universidad Militar Nueva Granada</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Universidad Nacional de Colombia</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>15-243027</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Avión no tripulado para inspección de infraestructuras</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Leonardo Enrique</firstName>
+          <lastName>Solaque Guzmán</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Carlos Alberto</firstName>
+          <lastName>Parra Rodríguez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2015</ns2:year>
+          <ns2:month>10</ns2:month>
+          <ns2:day>13</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2021-07-29</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Consorcio de hongos inmovilizados sobre un portador laminar de lignocelulosa para el tratamiento de aguas residuales y proceso para la elaboración del mismo</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>13-290121</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Consorcio de hongos inmovilizados sobre un portador laminar de lignocelulosa para el tratamiento de aguas residuales y proceso para la elaboración del mismo</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Aura Marina</firstName>
+          <lastName>Pedroza Rodriguez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Aura Marina</firstName>
+          <lastName>Pedroza Rodriguez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2013</ns2:year>
+          <ns2:month>12</ns2:month>
+          <ns2:day>11</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2016-03-31</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Método Biodirigido Para Preparar Una Fracción Bioactiva de Petiveria Alliacea y Composición Farmacéutica que Contiene Dicha Fracción Bioactiva</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>09-108636</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Phairilab es un conjunto de invenciones desarrolladas a partir de las propiedades funcionales de las plantas DIvidivi y Anamú que tienen características especiales para desarrollar productos dermocosméticos, suplementos alimenticios  y fitomedicamentos para el tratamiento de pacientes con cancer.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Susana</firstName>
+          <lastName>Fiorentino Gomez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Susana</firstName>
+          <lastName>Fiorentino Gomez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2009</ns2:year>
+          <ns2:month>10</ns2:month>
+          <ns2:day>02</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>Concesión</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Combination of Compounds Derived from Gallic Acid for the Treatment of Cancer</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Corpas</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>14/427.552</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Phairilab es un conjunto de invenciones desarrolladas a partir de las propiedades funcionales de las plantas DIvidivi y Anamú que tienen características especiales para desarrollar productos dermocosméticos, suplementos alimenticios  y fitomedicamentos para el tratamiento de pacientes con cancer.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Diana Marcela</firstName>
+          <lastName>Castañeda Uvajoa</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Susana</firstName>
+          <lastName>Fiorentino Gomez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2015</ns2:year>
+          <ns2:month>03</ns2:month>
+          <ns2:day>11</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2017-01-01</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Pharmacological Chaperones for the enzyme N-acetylgalactosamine-6-sulfate sulfatase (GALNS) as treatment for Lysosomal Storage Diseases</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>62418734</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Es un medicamento de segundo uso, es decir sirve para tratar dos condiciones. El uso desarrolado en la PUJ es para tratar la enfermedad de morquio, que es una enfermedad de nacimiento donde no se desarrollan los músculos y se tienen deficiencias neuronales.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Carlos Javier</firstName>
+          <lastName>Alméciga Díaz</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Carlos Javier</firstName>
+          <lastName>Alméciga Díaz</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2016</ns2:year>
+          <ns2:month>11</ns2:month>
+          <ns2:day>07</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Dispositivo para recubrir partes energizadas</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2021/0010900</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sistemas de protección física para equipos eléctricos especiales en las subestaciones eléctricas, mediante herramientas como la manufactura aditiva. Es un forro que se pone en una subestación eléctrica, tiene función econóligca para la presevnción de la muerte de la fauna pues los animales en el putumayo se acercan a las estaciones, y función técnica, para prevenir el daño de la subestación por el animal que puede queda pegado</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Martha Ruth</firstName>
+          <lastName>Manrique Torres</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Martha Ruth</firstName>
+          <lastName>Manrique Torres</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2021</ns2:year>
+          <ns2:month>08</ns2:month>
+          <ns2:day>19</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>SISTEMA PREDICTIVO PARA APOYAR EL DIAGNÓSTICO TEMPRANODE ALTERACIONES BIOMECÁNICAS DEL PIE EN PACIENTESDIABÉTICOS</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2021/0015248</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Plataforma de telemedicina que permite asistir al especialista en el diagnóstico, tratamiento y seguimiento continuo del pie diabético, se derivan de esta plataforma plantillas personalizadas que reduce los picos de presión en un 77%.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Francisco Carlos</firstName>
+          <lastName>Calderón Bocanegra</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Martha Lucia</firstName>
+          <lastName>Zequera Diaz</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date />
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Dispositivo Intraoral para el Tratamiento de Apnea del Sueño y Ronquido</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Hospital Universitario San Ignacio</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2016/0001239</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">DUBSA®: Dispositivo intraoral de avance mandibular para facilitar la respiración en pacientes con AOS. Este cuenta con un mecanismo gradual y autoajustable, haciéndolo totalmente adaptable, cómodo y que permite un avance de la mandíbula, de la lengua, y movimientos mandibulares de lateralidad, facilitando el paso del aire, aumentando su eficacia con respecto a los otros dispositivos en el tratamiento de la AOS y ronquido.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Liliana Margarita</firstName>
+          <lastName>Otero Mendoza</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Liliana Margarita</firstName>
+          <lastName>Otero Mendoza</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2016</ns2:year>
+          <ns2:month>08</ns2:month>
+          <ns2:day>26</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2019-08-04</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Estructura modular transportable de elementos prefabricados para la construcción de edificaciones</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2019/0012797</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Estructura modular transportable de elementos prefabricados para la construcción de edificaciones. La estructura modular es fabricada con tetrapak, el cual tiene cartón  en su mayoria y otros compuestos</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Federico Alejandro</firstName>
+          <lastName>Núñez Moreno</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Federico Alejandro</firstName>
+          <lastName>Núñez Moreno</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2019</ns2:year>
+          <ns2:month>11</ns2:month>
+          <ns2:day>15</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Herramienta ergonómica para el corte de flores y frutos. Modelo I</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>10-093246</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Herramienta ergonómica para el corte de flores y frutos.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Jorge Enrique</firstName>
+          <lastName>Córdoba Sanchez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Leonardo Augusto</firstName>
+          <lastName>Quintana Jimenez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2010</ns2:year>
+          <ns2:month>07</ns2:month>
+          <ns2:day>30</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Herramienta ergonómica para el corte de flores y frutos. Modelo II</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>10-093249</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Herramienta ergonómica para el corte de flores y frutos.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Jorge Enrique</firstName>
+          <lastName>Córdoba Sanchez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Leonardo Augusto</firstName>
+          <lastName>Quintana Jimenez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2010</ns2:year>
+          <ns2:month>07</ns2:month>
+          <ns2:day>30</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Fracción Bioactiva de Achyrocline Bogotensis (Kunth) Dc. (Compositae) con Actividad Antiviral</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>16017515</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Fracción bioactiva (extracto) de achyrocline bogotensis (planta medicinal) que se da en la zona del centro del país, con actividad antiviral para tratamiento Enfermedad Diarreica Aguda. La idea del extracto es que no ataca el virus si no que es un suplemento</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Juan Carlos</firstName>
+          <lastName>Ulloa Rubiano</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Juan Carlos</firstName>
+          <lastName>Ulloa Rubiano</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2016</ns2:year>
+          <ns2:month>01</ns2:month>
+          <ns2:day>26</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2017-03-08</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Guia lineal de rodillos compacta</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>US 14363156</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Guia lineal de rodillos compacta</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Andrés Ernesto</firstName>
+          <lastName>Salguero Beltran</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Andrés Ernesto</firstName>
+          <lastName>Salguero Beltran</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2014</ns2:year>
+          <ns2:month>06</ns2:month>
+          <ns2:day>05</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>System and Method for an Universal Head-Up Display with Multiple Interaction Methods</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Jose Alejandro Betancur Ramírez</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>62607913</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sistema y método de interacción con un dispositivo móvil utilizando un visualizador head-up. Es un sistema (es un hardware en una pantalla) que permite visualizar las condiciones de los vehículos como por ejemplo si tiene bien la temperatura del motor, y además interactura con aplicaciones como waze, radio. Tiene tambien tiene un hardware que es un anillo que se coloca en las manos para manipular el head up y que se conecta con el celular a traves de una app.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Jose Alejandro</firstName>
+          <lastName>Betancur Ramírez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Jose Alejandro</firstName>
+          <lastName>Betancur Ramírez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2017</ns2:year>
+          <ns2:month>12</ns2:month>
+          <ns2:day>19</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Sistema y Método de Interacción con un Dispositivo Móvil
+Utilizando un Visualizador Head-up</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Jose Alejandro Betancur Ramírez</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>PCT/IB2018/060360</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sistema y método de interacción con un dispositivo móvil utilizando un visualizador head-up. Es un sistema (es un hardware en una pantalla) que permite visualizar las condiciones de los vehículos como por ejemplo si tiene bien la temperatura del motor, y además interactura con aplicaciones como waze, radio. Tiene tambien tiene un hardware que es un anillo que se coloca en las manos para manipular el head up y que se conecta con el celular a traves de una app.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Jose Alejandro</firstName>
+          <lastName>Betancur Ramírez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Jose Alejandro</firstName>
+          <lastName>Betancur Ramírez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2018</ns2:year>
+          <ns2:month>12</ns2:month>
+          <ns2:day>19</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>System and method for interacting with a mobile device using a head-up display</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Jose Alejandro Betancur Ramírez</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>16/954,975 US2020310552A1</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sistema y método de interacción con un dispositivo móvil utilizando un visualizador head-up. Es un sistema (es un hardware en una pantalla) que permite visualizar las condiciones de los vehículos como por ejemplo si tiene bien la temperatura del motor, y además interactura con aplicaciones como waze, radio. Tiene tambien tiene un hardware que es un anillo que se coloca en las manos para manipular el head up y que se conecta con el celular a traves de una app.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Jose Alejandro</firstName>
+          <lastName>Betancur Ramírez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Jose Alejandro</firstName>
+          <lastName>Betancur Ramírez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date />
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Sistema y método de interacción con un dispositivo móvil utilizando un visualizador head-up</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Jose Alejandro Betancur Ramírez</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2020/0008359</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sistema y método de interacción con un dispositivo móvil utilizando un visualizador head-up. Es un sistema (es un hardware en una pantalla) que permite visualizar las condiciones de los vehículos como por ejemplo si tiene bien la temperatura del motor, y además interactura con aplicaciones como waze, radio. Tiene tambien tiene un hardware que es un anillo que se coloca en las manos para manipular el head up y que se conecta con el celular a traves de una app.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Jose Alejandro</firstName>
+          <lastName>Betancur Ramírez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Jose Alejandro</firstName>
+          <lastName>Betancur Ramírez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date />
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Method for Manufacturing a Thin Film Consisting of a Colloidal Crystal Infiltrated with the Luminescent MDMO-PPV Polymer Made of Silica (SIO2) Spheres, Having a Face-Centered Cubic System(FCC)</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>15/117,313</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">La tecnología Lumière consiste en el desarrollo de un método de fabricación rápido, sencillo y reproducible, de diodos emisores de luz orgánicos OLED, que incorpora a la región activa de los mismos, una película construida a partir de nano partículas de dióxido de silicio (SiO ), las cuales son infiltradas con un polímero luminiscente que se dispone en un arreglo altamente simétrico. Este método de fabricación, mejora la eficiencia energética de los OLED producidos en un 30% frente a los OLED tradicionales. La película luminiscente obtenida, puede ser acoplada fácilmente a los procesos usuales de manufactura de los OLED</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Juan Carlos</firstName>
+          <lastName>Salcedo Reyes</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Juan Carlos</firstName>
+          <lastName>Salcedo Reyes</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date />
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2018-02-01</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Enzima Esterasa Modificada Enantioselectiva y proceso para la Obtención de la Misma</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Corpogen</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>14093195</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Lipasas estable, aislada de un microorganismo extremófilo, que realiza síntesis de esteres útiles en la producción de aromas y sabores en la industria alimenticia, cosmética, farmacéutica y de productos de aseo (detergentes) y cuidado personal. Este biocatalizador tienen una alta demanda en la transformación de grasas derivadas del aceite de palma para la obtención de microcomponentes con alto valor agregado como esteroles, vitamina A y E, fosfolípidos y ácidos grasos. Adicionalmente, las lipasas permiten la generación de una amplia gama de moléculas que reemplazan el uso de compuestos sintéticos en los procesos productivos.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Maria Mercedes</firstName>
+          <lastName>Zambrano Eder</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Sandra</firstName>
+          <lastName>Baena Garzón</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2014</ns2:year>
+          <ns2:month>04</ns2:month>
+          <ns2:day>30</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2016-09-28</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Método de Detección de Líneas de Transmisión de Energía en Tiempo Real con Vehículos Aéreos No Tripulados</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Universidad Militar Nueva Granada</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Universidad Nacional de Colombia</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2018/0013805</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Método de detección de líneas de transmisión de energía en tiempo real con vehículos aéreo no tripulados. 
+
+Es una metodología que permite detectar fallas en las líneas eléctricas o en los oleoductos. Es un dfron que utónomamente vuela sobre las líneas eléctricas y toma videos. No es necesario que alguien esté manejando el dron. Esto permite monitorear a largas distancias</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Leonardo Enrique</firstName>
+          <lastName>Solaque Guzmán</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Carlos Alberto</firstName>
+          <lastName>Parra Rodríguez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2018</ns2:year>
+          <ns2:month>12</ns2:month>
+          <ns2:day>19</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2022-02-28</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Método para la Fabricación de una Película Delgada Formada por un Cristal Coloidal Infiltrado con un Polímero Luminiscente MDMOPPV</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>14025971</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">La tecnología Lumière consiste en el desarrollo de un método de fabricación rápido, sencillo y reproducible, de diodos emisores de luz orgánicos OLED, que incorpora a la región activa de los mismos, una película construida a partir de nano partículas de dióxido de silicio (SiO ), las cuales son infiltradas con un polímero luminiscente que se dispone en un arreglo altamente simétrico. Este método de fabricación, mejora la eficiencia energética de los OLED producidos en un 30% frente a los OLED tradicionales. La película luminiscente obtenida, puede ser acoplada fácilmente a los procesos usuales de manufactura de los OLED</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Juan Carlos</firstName>
+          <lastName>Salcedo Reyes</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Juan Carlos</firstName>
+          <lastName>Salcedo Reyes</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2014</ns2:year>
+          <ns2:month>02</ns2:month>
+          <ns2:day>07</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2015-12-18</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Proceso para la Obtención de un Biomaterial Aglomerado Enriquecido para Siembra en Vivero</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2022/0001320</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sustrato de siembra en vivero fabricado a partir de residuos de la industria maderera, enriquecido con fertilizantes (promofort) y microorganismos promotores de crecimiento vegetal. La planta posteriormente es plantada en tierra para contoinuar su desarrollo</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Aura Marina</firstName>
+          <lastName>Pedroza Rodriguez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Aura Marina Pedroza Rodriguez | Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2022</ns2:year>
+          <ns2:month>02</ns2:month>
+          <ns2:day>09</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Método para producir selectivamente metabolitos a partir de una microalga</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2020/0003916</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Proceso de manipulación del crecimiento de la microalga Galdieria sp. USBA-GBX 832 para la obtención de un extracto con cantidades interesantes de metabolitos de moléculas complejas, acumulados en la biomasa que poseen capacidades antioxidantes, como también antiangiogénica, citotóxica, anticancerígena, antiobesidad y antimicrobiana.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Sandra</firstName>
+          <lastName>Baena Garzón</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Sandra Baena</firstName>
+          <lastName>Gina Lopez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2020</ns2:year>
+          <ns2:month>03</ns2:month>
+          <ns2:day>30</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Método para producir selectivamente metabolitos a partir de microalgas del género galdieria</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2020/0009174</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Proceso de manipulación del crecimiento de la microalga Galdieria sp. USBA-GBX 832 para la obtención de un extracto con cantidades interesantes de metabolitos de moléculas complejas, acumulados en la biomasa que poseen capacidades antioxidantes, como también antiangiogénica, citotóxica, anticancerígena, antiobesidad y antimicrobiana.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Sandra</firstName>
+          <lastName>Baena Garzón</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Sandra Baena</firstName>
+          <lastName>Gina Lopez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2020</ns2:year>
+          <ns2:month>07</ns2:month>
+          <ns2:day>24</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2023-05-31</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>COMPOSICIÓN FARMACÉUTICA QUE COMPRENDE DERIVADOS DEL ÁCIDO GÁLICO
+Y 3,4,5,6-TETRAKIS[(3,4,5-TRIHIDROXIBENZOIL)OXI]OXAN-2-IL]METIL-3,4,5-TRIHIDROXI BENZOATO "</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Corpas</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>12-236193</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Phairilab es un conjunto de invenciones desarrolladas a partir de las propiedades funcionales de las plantas DIvidivi y Anamú que tienen características especiales para desarrollar productos dermocosméticos, suplementos alimenticios  y fitomedicamentos para el tratamiento de pacientes con cancer.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Susana</firstName>
+          <lastName>Fiorentino Gomez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Susana</firstName>
+          <lastName>Fiorentino Gomez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2012</ns2:year>
+          <ns2:month>12</ns2:month>
+          <ns2:day>28</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2015-04-24</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Consortium of Fungi Immobilized on a Laminar Lignocellulose Carrier for the Treatment of Wastewater and Method for Producing Same</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>US 15/103,712</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Consorcio de hongos inmovilizados sobre un portador laminar de lignocelulosa para el tratamiento de aguas residuales y proceso para la elaboración del mismo</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Aura Marina</firstName>
+          <lastName>Pedroza Rodriguez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Aura Marina</firstName>
+          <lastName>Pedroza Rodriguez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2016</ns2:year>
+          <ns2:month>06</ns2:month>
+          <ns2:day>10</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2018-02-10</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - PCT">
+    <title>
+      <ns2:text>Fracción bioactiva de Petiveria alliacea, composición farmacéutica que la contiene y combinación con agentes inmunoestimulantes para el tratamiento del cáncer</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>PCT/IB2010/002504 (22/09/2010) WO/2011/039629 (07/04/2011)</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Phairilab es un conjunto de invenciones desarrolladas a partir de las propiedades funcionales de las plantas DIvidivi y Anamú que tienen características especiales para desarrollar productos dermocosméticos, suplementos alimenticios  y fitomedicamentos para el tratamiento de pacientes con cancer.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Susana</firstName>
+          <lastName>Fiorentino Gomez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Susana</firstName>
+          <lastName>Fiorentino Gomez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2010</ns2:year>
+          <ns2:month>09</ns2:month>
+          <ns2:day>22</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - PCT">
+    <title>
+      <ns2:text>Inoculante Biológico para Promoción de Crecimiento de las Especies Forestales y método para su Obtención</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>PCT/IB2014/000527</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">bioinoculante líquido promotor de crecimiento vegetal,que presenta diferentes actividades biológicas que incluyen la producción de ácidos orgánicos, de sideróforos, de la enzima nitrogenasa y de reguladores de crecimiento vegetal, que aplicado en la fase inicial del cultivo obtiene resultados positivos tales como un mejor rendimiento comparado con el obtenido al aplicar otros productos similares.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2014</ns2:year>
+          <ns2:month>04</ns2:month>
+          <ns2:day>11</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Proceso de Inmovilización de Bacterias Gram Negativas para Estimular el Crecimiento Vegetal</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>13094384</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">bioinoculante líquido promotor de crecimiento vegetal,que presenta diferentes actividades biológicas que incluyen la producción de ácidos orgánicos, de sideróforos, de la enzima nitrogenasa y de reguladores de crecimiento vegetal, que aplicado en la fase inicial del cultivo obtiene resultados positivos tales como un mejor rendimiento comparado con el obtenido al aplicar otros productos similares.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2013</ns2:year>
+          <ns2:month>04</ns2:month>
+          <ns2:day>11</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2015-09-17</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Sistema que Conforma una Estación de Espectroscopias Ópticas</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2016/0000550</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Integral Spectrum consiste en un equipo modular que ensambla una estación de 5 tipos de espectroscopias (absorbancia, transmitancia, reectancia, fotoluminiscencia y Raman) para el estudio de las propiedades ópticas de diferentes materiales en cualquiera de los estados (sólido, líquido, gas, plasma o película delgada) .La tecnología presenta excelentes características de sensibilidad y trazabilidad gracias al uso de técnicas de ampliación que mejoran la transmisión de señal. La óptica permite enfocar el haz de luz en un punto específico de la muestra (1mm), mejorando la precisión de los resultados. Por último, el diseño del equipo permite adaptarse a las necesidades específicas del usuario, brindado gran precisión de los resultados y la personalización de la estación.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Juan Carlos</firstName>
+          <lastName>Salcedo Reyes</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Juan Carlos</firstName>
+          <lastName>Salcedo Reyes</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2016</ns2:year>
+          <ns2:month>08</ns2:month>
+          <ns2:day>01</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2018-07-11</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Enantioselective Modified Esterase Enzyme and Method for the Production Thereof</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>No. Patente: 10,400,224 Solicitud: 15/307,254</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Lipasas estable, aislada de un microorganismo extremófilo, que realiza síntesis de esteres útiles en la producción de aromas y sabores en la industria alimenticia, cosmética, farmacéutica y de productos de aseo (detergentes) y cuidado personal. Este biocatalizador tienen una alta demanda en la transformación de grasas derivadas del aceite de palma para la obtención de microcomponentes con alto valor agregado como esteroles, vitamina A y E, fosfolípidos y ácidos grasos. Adicionalmente, las lipasas permiten la generación de una amplia gama de moléculas que reemplazan el uso de compuestos sintéticos en los procesos productivos.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Maria Mercedes</firstName>
+          <lastName>Zambrano Eder</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Sandra</firstName>
+          <lastName>Baena Garzón</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2016</ns2:year>
+          <ns2:month>10</ns2:month>
+          <ns2:day>27</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2019-03-09</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - PCT">
+    <title>
+      <ns2:text>BIOINOCULANT COMPOSITION</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>PCT/IB2020/052027</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">bioinoculante líquido promotor de crecimiento vegetal,que presenta diferentes actividades biológicas que incluyen la producción de ácidos orgánicos, de sideróforos, de la enzima nitrogenasa y de reguladores de crecimiento vegetal, que aplicado en la fase inicial del cultivo obtiene resultados positivos tales como un mejor rendimiento comparado con el obtenido al aplicar otros productos similares.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2020</ns2:year>
+          <ns2:month>03</ns2:month>
+          <ns2:day>09</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Dispositivo para inspección y reparación de tuberias</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Universidad Militar Nueva Granada</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>H&amp;U</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2019/0009551</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Dispositivo para inspección y reparación de tuberías hidrosanitarias operado remotamente.Este dispositivo es un robot que se maneja de manera inhalámbrica, se pilotea con con un control</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Diego Alejandro</firstName>
+          <lastName>Patiño Guevara</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Diego Alejandro</firstName>
+          <lastName>Patiño Guevara</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date />
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2022-07-29</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Method for Modeling and Executing Complex Systems based on Concurrent BDI Architecture with Hybrid Hardware/Software Agents</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>US16/652,610</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sistema que controla un robot que responda a imprevistos en un ambiente complejo, tobot de compañia para ancianos. Los robot deben sortear obstaculos mientras interactuan con los humanos</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Alejandra Maria</firstName>
+          <lastName>González Correal</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Enrique</firstName>
+          <lastName>González Guerrero</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2016</ns2:year>
+          <ns2:month>04</ns2:month>
+          <ns2:day>22</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Método y sistema de apoyo en la ejecución de actividades para usuarios con déficit cognitivo</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Hospital Universitario San Ignacio</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2021/0015195</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sistema de apoyo para pacientes con demencia fronto temporal, los cuales pierden la conciencia del orden de ejecución de una actividad. Se trata de unos dispositivos que cuentan con alarmas lumínicas y de sonido para indicar al paciente el orden y secuencia de las actividades a realizar.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Omar Fernando</firstName>
+          <lastName>Rámirez Perez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Omar Fernando</firstName>
+          <lastName>Rámirez Perez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2021</ns2:year>
+          <ns2:month>11</ns2:month>
+          <ns2:day>11</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Mecanotransductor para la estimulación de cultivos celulares</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Universidad Militar Nueva Granada</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>10-164988</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">La presente invención se relaciona con un aparato mecatrónico para llevar a cabo la estimulación mecánica de cultivos celulares in Vitro, el cual transmite diferentes intensidades de fuerza a la células adheridas a la superficie en frascos de cultivo, con el fin de estudiar y analizar las diferentes fases del ciclo celular. La estimulación mecánica se basa en la producción de deformaciones cíclicas de diferentes magnitudes y frecuencias en los frascos de cultivo, dando la posibilidad de regular los tiempos de estimulo y reposo mediante un sistema de control automatizado que permite programar el número de ciclos a realizar en un tiempo establecido por el usuario, donde el aparato mecatrónico es controlado por medio de un sistema de control encargado de recibir la información por parte del usuario con relación con los intervalos de tiempo en los cuales se desea hacer la estimulación mecánica en cada uno de los frascos de cultivo y de enviar las diferentes señales al servomotor, que realiza giros para transmitir el movimiento a un eje de levas que produce la estimulación mecánica a los frascos de cultivo.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Astrid</firstName>
+          <lastName>Rubiano Fonseca</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Jorge Arturo</firstName>
+          <lastName>Rey Cubillos</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2010</ns2:year>
+          <ns2:month>12</ns2:month>
+          <ns2:day>30</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2013-07-25</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Bioactive fraction of petiveria alliacea, Pharmaceutical composition containing same, and combination with immunostimulants for treating cancer</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>13/499,798</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Phairilab es un conjunto de invenciones desarrolladas a partir de las propiedades funcionales de las plantas DIvidivi y Anamú que tienen características especiales para desarrollar productos dermocosméticos, suplementos alimenticios  y fitomedicamentos para el tratamiento de pacientes con cancer.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Susana</firstName>
+          <lastName>Fiorentino Gomez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Susana</firstName>
+          <lastName>Fiorentino Gomez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2012</ns2:year>
+          <ns2:month>02</ns2:month>
+          <ns2:day>08</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2014-05-27</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Biological inoculant for promoting the growth of forest species and method for producing same</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>14/783,393</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">bioinoculante líquido promotor de crecimiento vegetal,que presenta diferentes actividades biológicas que incluyen la producción de ácidos orgánicos, de sideróforos, de la enzima nitrogenasa y de reguladores de crecimiento vegetal, que aplicado en la fase inicial del cultivo obtiene resultados positivos tales como un mejor rendimiento comparado con el obtenido al aplicar otros productos similares.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2015</ns2:year>
+          <ns2:month>10</ns2:month>
+          <ns2:day>08</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2019-06-08</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Método de priorización de historias clínicas electrónicas para estudios retrospectivos</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Hospital Universitario San Ignacio</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>14- 75996</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">DISEARCH     es     una     herramienta     de     búsqueda    y    priorización    de    Historias    Clínicas    Electrónicas    (HCE).    Ha    sido    desarrollada  para  la  búsqueda  de  datos  estructurados    y    no    estructurados    y    produce  una  lista  priorizada  de  registros  de    pacientes    que    coinciden    con    los    criterios de búsqueda dados. En este momento se ha trabajado con el HUSI para prevalencia de enfermedades, seguimiento de pacientes.. y con esta información planterar proyectos de investigaciónpriorización de historias clinicas electrónicas</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Alexandra</firstName>
+          <lastName>Pomares Qimbaya</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Alexandra</firstName>
+          <lastName>Pomares</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2014</ns2:year>
+          <ns2:month>04</ns2:month>
+          <ns2:day>08</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2018-06-18</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Medio de cultivo para la producción de ácidos orgánicos fermantativos</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>15/251084</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">MEDIO DE CULTIVO PARA LA PRODUCCIÓN DE ÁCIDOS ORGÁNICOS FERMENTATIVOS</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Sandra</firstName>
+          <lastName>Baena Garzón</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Sandra</firstName>
+          <lastName>Baena Garzón</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2015</ns2:year>
+          <ns2:month>10</ns2:month>
+          <ns2:day>21</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Bioinoculant Composition</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>16/296,786</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">bioinoculante líquido promotor de crecimiento vegetal,que presenta diferentes actividades biológicas que incluyen la producción de ácidos orgánicos, de sideróforos, de la enzima nitrogenasa y de reguladores de crecimiento vegetal, que aplicado en la fase inicial del cultivo obtiene resultados positivos tales como un mejor rendimiento comparado con el obtenido al aplicar otros productos similares.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2019</ns2:year>
+          <ns2:month>03</ns2:month>
+          <ns2:day>08</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2021-11-05</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Processo de imobilização para obter um inoculante biológico estimulador do crescimento vegetal, suporte de teca, e, inoculante biológico estimulador de crescimiento</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>BR 11 2015 025912 0</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">bioinoculante líquido promotor de crecimiento vegetal,que presenta diferentes actividades biológicas que incluyen la producción de ácidos orgánicos, de sideróforos, de la enzima nitrogenasa y de reguladores de crecimiento vegetal, que aplicado en la fase inicial del cultivo obtiene resultados positivos tales como un mejor rendimiento comparado con el obtenido al aplicar otros productos similares.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2015</ns2:year>
+          <ns2:month>10</ns2:month>
+          <ns2:day>09</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2022-04-26</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Novel biofertilizer based on a bacterial consortium of four strains isolated from roots of tree Tectona grandis</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>62572562</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">bioinoculante líquido promotor de crecimiento vegetal,que presenta diferentes actividades biológicas que incluyen la producción de ácidos orgánicos, de sideróforos, de la enzima nitrogenasa y de reguladores de crecimiento vegetal, que aplicado en la fase inicial del cultivo obtiene resultados positivos tales como un mejor rendimiento comparado con el obtenido al aplicar otros productos similares.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Lucia Ana Patricia</firstName>
+          <lastName>Diaz Ariza</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2017</ns2:year>
+          <ns2:month>10</ns2:month>
+          <ns2:day>16</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - PCT">
+    <title>
+      <ns2:text>Real - Time Multi - Agent BDI Architecture with Agent Migration and Methods Thereof</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>PCT/IB2018/057615</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sistema que controla un robot que responda a imprevistos en un ambiente complejo, tobot de compañia para ancianos. Los robot deben sortear obstaculos mientras interactuan con los humanos</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Enrique</firstName>
+          <lastName>González Guerrero</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Enrique</firstName>
+          <lastName>González Guerrero</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2018</ns2:year>
+          <ns2:month>10</ns2:month>
+          <ns2:day>01</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Sistema BDI para el control cooperativo y concurrente de dispositivos robóticos</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2019/0015039</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sistema que controla un robot que responda a imprevistos en un ambiente complejo, tobot de compañia para ancianos. Los robot deben sortear obstaculos mientras interactuan con los humanos</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Flor Ángela</firstName>
+          <lastName>Bravo Sánchez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Enrique</firstName>
+          <lastName>González Guerrero</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2019</ns2:year>
+          <ns2:month>12</ns2:month>
+          <ns2:day>30</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2023-09-28</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Mecanismo de carga y descarga de materiales para un contenedor</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Comercial Nutresa S.A.S.</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2019/0010919</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Diseño de furgón ergonómico que reduzca al máximo la manipulación manual de cargas y desarrollo de las tareas contempladas dentro del cargue, acomodación de productos y descargue en condiciones postulares que puedan representar un riesgo considerable de generar desordenes musculo esqueléticos o carga cognitiva extraordinaria a los trabajadores durante el desarrollo de la actividad</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Daniel Francisco</firstName>
+          <lastName>Hoyos Caviedes</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2019</ns2:year>
+          <ns2:month>10</ns2:month>
+          <ns2:day>01</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2023-03-31</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Real time multi agent BDI architecture with agent miogration and methods thereof.</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>16/652,610</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sistema que controla un robot que responda a imprevistos en un ambiente complejo, tobot de compañia para ancianos. Los robot deben sortear obstaculos mientras interactuan con los humanos</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Alejandra Maria</firstName>
+          <lastName>González Correal</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Enrique</firstName>
+          <lastName>González Guerrero</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2020</ns2:year>
+          <ns2:month>03</ns2:month>
+          <ns2:day>31</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2022-10-25</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Arquitectura de BDI multiagente en tiempo real con migración del agente y métodos de los mismos.</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2020/0005591</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sistema que controla un robot que responda a imprevistos en un ambiente complejo, tobot de compañia para ancianos. Los robot deben sortear obstaculos mientras interactuan con los humanos</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Alejandra Maria</firstName>
+          <lastName>González Correal</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Enrique</firstName>
+          <lastName>González Guerrero</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2020</ns2:year>
+          <ns2:month>05</ns2:month>
+          <ns2:day>04</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Composiciones y métodos para mejorar la actividad de la enzima N-ACETILGALACTOSAMINA-6-SULFATASA y tratar la mucopolisacaridosis tipo IVA</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>National Institutes of Health (NIH)</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2020/0007242</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Es una proteína que se utiliza para el tratamiento de la enfermedad de morquio, tambipen se usa como parte de una dieta.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Jacobo Cepeda</firstName>
+          <lastName>del Castillo</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Carlos Javier</firstName>
+          <lastName>Alméciga Díaz</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date />
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>BDI System for the cooperative and concurrent control of robotic devices</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>17/138,032</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Sistema que controla un robot que responda a imprevistos en un ambiente complejo, tobot de compañia para ancianos. Los robot deben sortear obstaculos mientras interactuan con los humanos</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Flor Ángela</firstName>
+          <lastName>Bravo Sánchez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Enrique</firstName>
+          <lastName>González Guerrero</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2020</ns2:year>
+          <ns2:month>12</ns2:month>
+          <ns2:day>30</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - PCT">
+    <title>
+      <ns2:text>Sistema de purificación de agua con luz UV</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Magin Florez</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>PCT/IB2021/060428</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Pure Stream:  consiste en un purificador de agua para la eliminación de bacterias, virus y parásitos. Dicho dispositivo está compuesto por una lámpara excimer de luz Ultravioleta UV (sin mercurio), recubierta por una espiral que guía el agua alrededor de la lámpara para asegurar el tiempo de exposición del agua al UV. La lámpara cuenta con un encendido instantáneo que se activa a la entrada de agua al sistema y disminuye el alto consumo de energía y desperdicio de agua. Es así, que el agua que pasa alrededor o a través de la lámpara se almacena en un reservorio para su uso cuando el usuario la requiera</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Rafael Fernando</firstName>
+          <lastName>Diez Medina</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>David Magin Florez Rubio | Rafael Fernando</firstName>
+          <lastName>Diez Medina</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2021</ns2:year>
+          <ns2:month>11</ns2:month>
+          <ns2:day>11</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>P2ET reduces COVID severity by inhibition of viral replication, reduction of pulmonar fibrosis markers and modulation of inmune response</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>63292444</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Phairilab es un conjunto de invenciones desarrolladas a partir de las propiedades funcionales de las plantas DIvidivi y Anamú que tienen características especiales para desarrollar productos dermocosméticos, suplementos alimenticios  y fitomedicamentos para el tratamiento de pacientes con cancer.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Aejandra</firstName>
+          <lastName>Gomez Cadena</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Susana</firstName>
+          <lastName>Fiorentino Gomez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2021</ns2:year>
+          <ns2:month>12</ns2:month>
+          <ns2:day>20</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Kit para la evaluación de ARNM de Trombomodulina en sangre materna para la predicción temprana de la preeclampsia</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2021/0014590</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Kit diagnóstico    para     la     predicción temprana de preeclampsia.  A partir  de  una  muestra  de  sangre  de  la  paciente      se      puede      identificar      un      marcador predictivo que está presente en plasma.  Con   el   uso   de   esta   prueba   se   puede   detectar la enfermedad a partir de la de la quinta semana del embarazo, ofreciendo un  manejo  médico  oportuno  tanto  para  la  madre  como  para  el  feto  antes  de  la  aparición      de      los      síntomas,      que      generalmente    sucede    en    la    semana    veinte.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Paola Andrea</firstName>
+          <lastName>Ayala Ramirez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Paola Andrea Ayala Ramirez | Reggie</firstName>
+          <lastName>García Robles</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date />
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - PCT">
+    <title>
+      <ns2:text>Guia Lineal de Rodillos Compacta</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>PCT/IB2011/055465 WO/2013/084024</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO"> Guia lineal de rodillos compacta que permite transmitir elevadas fuerzas y momentos de torsion entre un carro (1) y un riel de guiado (3). El carro (1) dispone de dos o mas parejas de rodillos acanalados (2), soportados rotativamente en las paredes laterales del carro mediante cojinetes, entre los que se inserta el riel (3) con una seccion transversal complementaria. El contacto simultaneo de las superfices planas y convexas del riel (3) con las superficies cilindricas y concavas de los rodillos (2) permite una distribucion uniforme de las cargas sobre dichos cojinetes y una configuration compacta de la guia.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Andrés Ernesto</firstName>
+          <lastName>Salguero Beltran</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Andrés Ernesto</firstName>
+          <lastName>Salguero Beltran</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2011</ns2:year>
+          <ns2:month>12</ns2:month>
+          <ns2:day>05</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Dispositivo para Toma de Muestras (Saliva)</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2022/0007774</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Covid Check: Sistema compuesto por un nuevo set de dispositivo de toma de muestra, primers y sondas con alta sensibilidad y especificidad que permiten cuantificar la carga viral (de diferentes tipos de virus) presente en cada muestra, de una manera más económica, con la obtención de resultados en menor tiempo que se pueda realizar en una muestra corporal de fácil toma como la saliva.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Dabeiba Adriana</firstName>
+          <lastName>García Robayo</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Dabeiba Adriana</firstName>
+          <lastName>García Robayo</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2022</ns2:year>
+          <ns2:month>05</ns2:month>
+          <ns2:day>31</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Mechanism for Loading and Unloading Materials for a Container</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Comercial Nutresa S.A.S.</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>17/765,571</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Diseño de furgón ergonómico que reduzca al máximo la manipulación manual de cargas y desarrollo de las tareas contempladas dentro del cargue, acomodación de productos y descargue en condiciones postulares que puedan representar un riesgo considerable de generar desordenes musculo esqueléticos o carga cognitiva extraordinaria a los trabajadores durante el desarrollo de la actividad</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Daniel Francisco</firstName>
+          <lastName>Hoyos Caviedes</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2022</ns2:year>
+          <ns2:month>03</ns2:month>
+          <ns2:day>31</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Cosmetic Composition Comprising an Extract of a Microalgae of Galdieria SP. Genus for Cosmetic Applications</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Bel Star S.A.</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>63/336,207</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Formulación cosmética a base del extracto del microalga para aplicación en el cuidado de la piel</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Mauricio</firstName>
+          <lastName>Guzmán</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Sandra Baena Garzón |</firstName>
+          <lastName>Gina Lopez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2022</ns2:year>
+          <ns2:month>04</ns2:month>
+          <ns2:day>28</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>"Composiciones y metodos para la protección cognitiva de los polinizadores contra plaguicidas"</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Universidad del Rosario</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2022/0004380</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Es manejada por la Universidad del Rosario. "Composiciones y metodos para la protección cognitiva de los polinizadores contra plaguicidas".Busca proteger a las abejas en contra de los plaguicidas que se utilizan en la agricultura y que no permiten la polinización de las flores.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Wulfila</firstName>
+          <lastName>Gronenberg</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date />
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Proceso de Obtención de un Sucedáneo de Queso Bajo en Sodio con Potencial Funcional, Mediante la Inclusión de Aceite de Palma Alto Oléico</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      <organisation>
+        <name>
+          <ns2:text>Cenipalma</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2022/0013283</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Producto y proceso de producción de sucedádenos/análogos ( queso elaborado mediante la sustitución parcial o total de la grasa láctea por grasa vegetal) de queso fresco bajo en sodio con sustitución parcial de la fracción lipídica por aceite hibrido de palma OxG, con el fin de mejorar los acidos grasos respecto a un queso fresco, impactando mínimamente las características de la textura y aceptabilidad sensorial durante su vida útil. Ofrecen queso campesino y queso hilado. Es bueno porque el aceite de palma tiene beneficios para la salud</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>María</firstName>
+          <lastName>Paula Guzmán</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Ruby</firstName>
+          <lastName>Alejandra Villamil</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2022</ns2:year>
+          <ns2:month>09</ns2:month>
+          <ns2:day>16</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Method to Selectively Produce Metabolites from Microalgae of the Genius Galdieria</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Pontificia Universidad Javeriana</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>18/006,544</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Proceso de manipulación del crecimiento de la microalga Galdieria sp. USBA-GBX 832 para la obtención de un extracto con cantidades interesantes de metabolitos de moléculas complejas, acumulados en la biomasa que poseen capacidades antioxidantes, como también antiangiogénica, citotóxica, anticancerígena, antiobesidad y antimicrobiana.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Gina Pilar</firstName>
+          <lastName>Lopez Ramirez</lastName>
+          </person>
+        </author>
+      <author>
+        <person>
+          <firstName>Sandra Baena Garzón | Gina Pilar</firstName>
+          <lastName>Lopez Ramirez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2023</ns2:year>
+          <ns2:month>01</ns2:month>
+          <ns2:day>23</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - PCT">
+    <title>
+      <ns2:text>Compositions and Methods for Cognitive Protection of Pollinators Against Pesticides</ns2:text>
+      </title>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>PCT/US2020/049457</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">Es manejada por la Universidad del Rosario. "Composiciones y metodos para la protección cognitiva de los polinizadores contra plaguicidas".Busca proteger a las abejas en contra de los plaguicidas que se utilizan en la agricultura y que no permiten la polinización de las flores.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Wulfila</firstName>
+          <lastName>Gronenberg</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date />
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  </publications>

@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='utf-8'?>
+<publications xmlns="v1.publication-import.base-uk.pure.atira.dk" xmlns:ns2="v3.commons.pure.atira.dk">
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>MÉTODO PARA LA MEDICIÓN DIRECTA DE UDP-GLUCOSA O ADPGLUCOSA Y DE MEDICIÓN INDIRECTA DE LA CONCENTRACIÓN DE SACAROSA O ALMIDÓN EN FLUIDOS INTRACELULARES A PARTIR DE NANOPARTÍCULAS DE ORO FUNCIONALIZADAS</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Doctorado en Ingenieria</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2016/0006180</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">La presente invención se encuentra relacionada con el campo de los procesos industriales de medición de azúcares y almidón en células. La presente invención relata el proceso de funcionalización de nanopartículas de oro sintetizadas funcionalizadas con ligandos poliméricos para la medición selectiva de sacarosa o almidón en fluido intracelular. Así mismo, divulga un nanocompuesto para la medición de concentración de sacarosa o almidón en fluido intracelular que contiene nanopartículas de oro sintetizadas funcionalizadas con ligandos poliméricos.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Andres</firstName>
+          <lastName>Jaramillo Botero</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2018</ns2:year>
+          <ns2:month>07</ns2:month>
+          <ns2:day>10</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>07/07/2020</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>Synthesis of functionalised gold nanoparticles and nanocompounds containing same for measuring sucrose or starch in cells</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Doctorado en Ingenieria</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>EP3567008A1</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="FR">The present invention relates to the field of industrial processes for measuring sugars and starch in cells and concerns the process of functionalising synthesized gold nanoparticles functionalized with polymer ligands, for the selective measurement of sucrose or starch in intracellular fluid. Also disclosed is a nanocompound for measuring the concentration of sucrose or starch in intracellular fluid, which contains synthesized gold nanoparticles functionalized with polymer ligands.
+
+</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Andres</firstName>
+          <lastName>Jaramillo Botero</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2022</ns2:year>
+          <ns2:month>06</ns2:month>
+          <ns2:day>08</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>13/05/2022</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>UN PROCEDIMIENTO DE OBTENCIÓN DE UN MODELO MORFOLÓGICO DE ENTRENAMIENTO EN CIRUGÍA MÍNIMAMENTE INVASIVA</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Decanatura de la FCSL</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2019/0010338</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">La presente invención se refiere a unos modelos morfológicos, su procedimiento de obtención y sistema para la práctica de para el aprendizaje de cirujanos en la técnica de cirugía mínimamente invasiva. Por tanto, la invención se podría encuadrar en el campo de la medicina y más concretamente al aprendizaje de las técnicas para que un cirujano en formación adquiera las destrezas y habilidades en técnicas de cirugía mínimamente invasiva.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Valentina</firstName>
+          <lastName>Corchuelo Guzman</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2019</ns2:year>
+          <ns2:month>12</ns2:month>
+          <ns2:day>10</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2023-05-31</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>SISTEMA Y MÉTODO PARA CARACTERIZACIÓN DE FENOTIPADO DE CULTIVOS AGRÍCOLAS A PARTIR DE LA CONCENTRACIÓN DE METANO DETECTADA</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Doctorado en Ingenieria</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2020/0001355</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">La presente invención revela un sistema y método para caracterización de fenotipado de cultivos agrícolas que tiene al menos un dispositivo de soporte reconfigurable de manera autónoma o controlada de manera remota que incluye un microcontrolador embebido central conectado a sensores atmosféricos ubicados en el cuerpo superior, un microcontrolador conectado a una cámara multiespectral ubicada en el extremo distal del brazo; donde el microcontrolador central está conectado a un microcontrolador de base que adquiere señales de los sensores de suelo; donde los microcontroladores obtienen energía de una unidad reguladora que es alimentada por un panel solar; donde el sistema contiene una unidad de comunicación que incluye a un enrutador que está conectado a la internet de manera inalámbrica.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Andres</firstName>
+          <lastName>Jaramillo Botero</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2020</ns2:year>
+          <ns2:month>06</ns2:month>
+          <ns2:day>15</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2023-01-30</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>SYSTEM AND METHOD FOR PHENOTYPIC CHARACTERISATION OF AGRICULTURAL CROPS</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Doctorado en Ingenieria</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>US20230123230A1</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="US">This invention shows a system and method for phenotype characterization of agricultural crops, comprising at least one support device which can be reconfigured in an autonomous or controlled remote manner. It includes a central embedded microcontroller connected to atmospheric sensors located in the upper body, a microcontroller connected to a multi-spectral camera located at the distal end of the arm. The central microcontroller is connected to a base microcontroller that receives signals from soil sensors. A solar panel provides the energy source to a regulating unit that powers the microcontrollers. The system contains a communication unit that includes a router wirelessly connected to Internet.
+
+</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Andres</firstName>
+          <lastName>Jaramillo Botero</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2023</ns2:year>
+          <ns2:month>04</ns2:month>
+          <ns2:day>20</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>MÉTODO PARA ELABORAR UN SENSOR BIO-MODIFICADO PARA DETECCIÓN Y MEDICIÓN DE AGENTES PATÓGENOS</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Doctorado en Ingenieria</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2021/0005496</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">La presente invención se refiere a un método para elaborar un sensor bio-modificado paradiagnóstico de agentes patógenos, integrado en una celda electroquímica de tres electrodos referencia y contra) planares interdigitados sobre un sustrato flexible, para diagnóstico de agentespatógenos; mediante modificación de la superficie de uno o más electrodos de trabajo con unasolución de ligación y uno o varios tipos de anticuerpos que se unen selectivamente a uno o variostipos de proteínas estructurales de un patógeno. La invención también se refiere a los electrodoselaborados mediante este método y sus aplicaciones para la detección de agentes patógenos. Elmétodo de la invención permite optimización de los tiempos y condiciones conocidas en el arte parala modificación de electrodos para la detección de moléculas biológicas.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Andres</firstName>
+          <lastName>Jaramillo Botero</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2022</ns2:year>
+          <ns2:month>10</ns2:month>
+          <ns2:day>31</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>DISPOSITIVO PARA LA MEDICIÓN ELECTRÓNICA Y ELECTROQUÍMICA DE CONCENTRACIONES DE ANALITOS EN MUESTRAS BIOLÓGICAS</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Doctorado en Ingenieria</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2021/0005504</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">La presente divulgación se refiere a un dispositivo de medición electrónica de muestras biológicasque utiliza al menos dos técnicas de detección en concurrencia virtual para medir la concentración deun analito objetivo en al menos una muestra biológica. Las técnicas de detección son de tratamientoelectroquímico, tratamiento electro-óptico y tratamiento de efecto de campo, o combinaciones secuencia de las anteriores. El dispositivo de medición de la presente divulgación puede combinar almenos dos técnicas de medición seleccionadas (y hasta tres técnicas) sin modificar manualmente lasconexiones de dicho dispositivo, lo cual es una ventaja en tanto que mejora la selectividad ysensibilidad en la medición del analito</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Andres</firstName>
+          <lastName>Jaramillo Botero</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2020</ns2:year>
+          <ns2:month>06</ns2:month>
+          <ns2:day>15</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>DISPOSITIVO DE MEDIDA DE FLUJO DE AIRE INSPIRADO</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Dpto Elect y Cienc Computacion</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2023/0007647</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">La presente invención revela un dispositivo de medida de flujo de aire inspirado para fisioterapia respiratoria que incorpora un sensor de presión diferencial de geometría tubular que presenta una disminución de diámetro en un punto de su longitud, generando un diferencial de presión del flujo de aire inspirado por el usuario, en un solo sentido. En el sensor (tubo Venturi) se establecen dos puntos principales para las tomas de alta y baja presión. En dichos puntos principales se instalan canales que, respectivamente, se conectan a un transductor de presión diferencial que transforma la presión generada por el aire en una señal eléctrica. La señal eléctrica es enviada a un microcontrolador que transforma la señal analógica en una señal digital para luego usar dicha señal para obtener los datos de flujo de aire y volumen inspirado, respectivamente. El resultado de la operación se transmite a un módulo de transmisión de señal del microcontrolador, el cual envía los datos a dispositivos externos. El dispositivo obtiene información cuantitativa y en línea del desempeño del paciente en la fisioterapia, configurando una herramienta para realización de estudios clínicos para evaluación de los resultados de reexpansión pulmonar.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Jaime Alberto</firstName>
+          <lastName>Aguilar Zambrano</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2023</ns2:year>
+          <ns2:month>08</ns2:month>
+          <ns2:day>09</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    <priorityDate>
+      <ns2:text>2023-11-22</ns2:text>
+      </priorityDate>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>PILARES UNIVERSALES ANATÓMICOS PROVISIONALES IMPRESOS EN RESINA PARA REHABILITACIÓN IMPLANTOLÓGICA</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Dpto Ingeniería Civil en Industrial</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2022/0013108</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">La presente invención se relaciona con el campo técnico de los procesos de rehabilitación implantológica, en particular, con pilares protésicos provisionales y sus métodos de fabricación, para aplicación en procesos de rehabilitación oral. Ante la evidente necesidad de proporcionar soluciones que permitan mejorar las condiciones de adhesión de los pilares provisionales con las coronas en procesos de rehabilitación implantológica, la presente invención divulga una nueva configuración de pilar provisional y su método de fabricación que mejora las condiciones de adhesión en procesos de rehabilitación implantológica dental. La presente invención revela un método para la fabricación de pilares provisionales, mediante impresión 3D, a partir de una resina fotopolimérica, donde el método incluye la confección anatómica del pilar, de acuerdo con el tipo de diente a tratar. En un segundo objeto, la presente invención reclama el pilar obtenido mediante el método divulgado por la presente invención, el cual, de acuerdo con las pruebas de adherencia realizadas, presenta un mejor comportamiento, siendo la diferencia estadísticamente significativa. El efecto técnico es logrado gracias al diseño de los componentes del pilar, es decir, cuerpo, prolongación y mecanismo de conexión del pilar provisional, a partir de la configuración anatómica que presenta el tercio cervical transgingival del tipo de diente a reemplazar, donde luego de determinar el perfil de emergencia protésica, se introduce en el tercio cervical transgingival del cuerpo del pilar una línea terminal en forma de hombro recto.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Mario Fernando</firstName>
+          <lastName>Muñoz Velez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2023</ns2:year>
+          <ns2:month>03</ns2:month>
+          <ns2:day>17</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  <patent subType="Patente - Invención">
+    <title>
+      <ns2:text>MÉTODO PARA LA IDENTIFICACIÓN Y CARACTERIZACIÓN FUNCIONAL DE GENES DE INTERÉS PARA EL MEJORAMIENTO AGRONÓMICO DE ESPECIES</ns2:text>
+      </title>
+    <organisations>
+      <organisation>
+        <name>
+          <ns2:text>Dpto Elect y Cienc Computacion</ns2:text>
+          </name>
+        </organisation>
+      </organisations>
+    <owner id="PUJAV" />
+    <patentNumber>
+      <ns2:text>NC2023/0010549</ns2:text>
+      </patentNumber>
+    <abstract>
+      <ns2:text lang="es" country="CO">La presente solicitud de patente describe un novedoso procedimiento que permite la identificación y caracterización funcional de genes o secuencias génicas con un alto
+potencial de implementación en procesos de mejoramiento agronómico para la producción de nuevas variedades vegetales. El método de la invención permite, a partir de miles de
+genes candidatos y la implementación causal de distintos filtros sucesivos, identificar y caracterizar aquellos genes con un mayor potencial de implementación exitosa en
+procesos de mejoramiento agronómico de especies de interés, acoplando distintas herramientas de caracterización ómica y análisis bioinformáticos para retener aquellos genes
+con un mayor potencial de implementación exitosa en procesos de mejoramiento agronómico de especies. El método de la presente invención involucra, directamente, el
+desarrollo de etapas de identificación y caracterización funcional de la expresión del gen con el fenotipo de interés, asociando los datos de expresión con mecanismos de
+regulación epigenética, obteniendo una relación de causalidad en donde mecanismos epigenéticos controlan la expresión de los genes postulados como candidatos.</ns2:text>
+      </abstract>
+    <persons>
+      <author>
+        <person>
+          <firstName>Mauricio Alberto</firstName>
+          <lastName>Quimbaya Gomez</lastName>
+          </person>
+        </author>
+      </persons>
+    <publicationStatuses>
+      <publicationStatus>
+        <statusType>published</statusType>
+        <date>
+          <ns2:year>2023</ns2:year>
+          <ns2:month>08</ns2:month>
+          <ns2:day>11</ns2:day>
+          </date>
+        </publicationStatus>
+      </publicationStatuses>
+    <language>es_CO</language>
+    </patent>
+  </publications>

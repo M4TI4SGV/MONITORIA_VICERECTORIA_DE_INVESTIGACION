@@ -19,8 +19,11 @@ nlp = spacy.load("es_core_news_sm")
 Language.factory("language_detector", func=get_lang_detector)
 nlp.add_pipe('language_detector', last=True)
 
-# Cargar el archivo Excel que contiene los datos de las patentes
-dataframe_patentes = pd.read_excel(r"pruebas.xlsx", sheet_name='Hoja1', dtype=object)
+# Cargar el archivo Excel que contiene los datos de las patentes desde la pestaña 'Hoja1'
+dataframe_patentes = pd.read_excel(r"Pruebas_Patentes_PUJB.xlsx", sheet_name='Hoja1', dtype=object)
+
+# Verificar las columnas disponibles
+print("Columnas disponibles en la hoja de Excel:", dataframe_patentes.columns)
 
 # Crear la carpeta Resultado si no existe
 if not os.path.exists("Resultado"):
@@ -56,6 +59,20 @@ def indent(elem, level=0):
 # Crear un conjunto para almacenar los títulos de las patentes ya procesadas
 titulos_procesados = set()
 
+# Función para separar correctamente los nombres y apellidos
+def separar_nombres(nombre_completo):
+    nombres = nombre_completo.strip().split()
+    if len(nombres) > 2:
+        first_name = " ".join(nombres[:-2])  # Todas las palabras menos las dos últimas son nombres
+        last_name = " ".join(nombres[-2:])   # Las últimas dos palabras son apellidos
+    elif len(nombres) == 2:
+        first_name = nombres[0]  # La primera palabra es el nombre
+        last_name = nombres[1]   # La segunda palabra es el apellido
+    else:
+        first_name = nombres[0]  # Si solo hay una palabra, se considera como nombre
+        last_name = ""  # No hay apellido
+    return first_name, last_name
+
 # Iterar sobre todas las filas del DataFrame para procesar cada patente
 for index, fila in dataframe_patentes.iterrows():
     print(f"Procesando la fila {index + 1} de {len(dataframe_patentes)}")
@@ -76,102 +93,92 @@ for index, fila in dataframe_patentes.iterrows():
 
     # Agregar el título de la patente al conjunto para marcarla como procesada
     titulos_procesados.add(temp_patente_titulo)
-
+    
     # Crear el elemento de la patente dentro del archivo XML general
     patent = ET.SubElement(root, "patent", {"subType": tipo_activo})
-
-    # Añadir el campo peerReviewed y workflow (fijos)
-    peer_reviewed = ET.SubElement(patent, "peerReviewed")
-    peer_reviewed.text = "false"
-    workflow = ET.SubElement(patent, "workflow")
-    workflow.text = "approved"
-
-    # Añadir los datos de publicación
-    publication_statuses = ET.SubElement(patent, "publicationStatuses")
-    publication_status = ET.SubElement(publication_statuses, "publicationStatus")
-    status_type = ET.SubElement(publication_status, "statusType")
-    status_type.text = "published"
-    date = ET.SubElement(publication_status, "date")
-
-    if pd.notna(fila['Fecha de Solicitud']):
-        fecha_solicitud = str(fila['Fecha de Solicitud']).split(" ")[0]
-        date_parts = fecha_solicitud.split("-")
-        if len(date_parts) == 3:
-            year = ET.SubElement(date, "ns2:year")
-            year.text = date_parts[0]
-            month = ET.SubElement(date, "ns2:month")
-            month.text = date_parts[1]
-            day = ET.SubElement(date, "ns2:day")
-            day.text = date_parts[2]
-
-    # Añadir la etiqueta del idioma
-    language = ET.SubElement(patent, "language")
-    language.text = "es_CO"
 
     # Crear el título de la patente
     title = ET.SubElement(patent, "title")
     create_ns2_text(title, temp_patente_titulo)
 
-    # Crear el campo abstract con idioma y país detectado
-    if pd.notna(fila['Descripcion']) and fila['Descripcion'].strip() != "":
-        doc = nlp(fila['Descripcion'])
-        detected_language = doc._.language['language']
-        country = "CO" if detected_language == "es" else "GB"
-        abstract = ET.SubElement(patent, "abstract")
-        abstract_text = ET.SubElement(abstract, "ns2:text", {
-            "lang": detected_language,
-            "country": country
-        })
-        abstract_text.text = fila['Descripcion']
-    else:
-        print(f"Advertencia: No hay descripción para la patente en la fila {index + 1}")
-        abstract = ET.SubElement(patent, "abstract")
-        abstract_text = ET.SubElement(abstract, "ns2:text", {"lang": "es", "country": "CO"})
-        abstract_text.text = "Descripción no disponible"
-
-    # Añadir los inventores
-    if pd.notna(fila['Inventores/Autores']):
-        persons = ET.SubElement(patent, "persons")
-        inventores = str(fila['Inventores/Autores']).split(",")
-
-        for inventor in inventores:
-            nombres = inventor.strip().split()
-            first_name = " ".join(nombres[:-2])
-            last_name = " ".join(nombres[-2:])
-
-            author = ET.SubElement(persons, "author")
-            role = ET.SubElement(author, "role")
-            role.text = "inventor"
-
-            person = ET.SubElement(author, "person")
-            first_name_elem = ET.SubElement(person, "firstName")
-            last_name_elem = ET.SubElement(person, "lastName")
-            first_name_elem.text = first_name
-            last_name_elem.text = last_name
-
-    # Crear el campo de organizaciones y separar por guion ("-")
+    # Organizaciones
     if pd.notna(fila['Titular']):
         organisations = ET.SubElement(patent, "organisations")
-        titulares = str(fila['Titular']).split(" - ")
-        for titular in titulares:
+        for org in str(fila['Titular']).split(" - "):
             organisation = ET.SubElement(organisations, "organisation")
             name = ET.SubElement(organisation, "name")
-            create_ns2_text(name, titular.strip())
-
-    # Añadir el owner con el ID "PUJAV"
+            create_ns2_text(name, org.strip())
+    
+    # Añadir el propietario
     owner = ET.SubElement(patent, "owner", {"id": "PUJAV"})
 
-    # Crear el campo número de patente
+    # Añadir el número de patente
     if pd.notna(fila['Numero de Solicitud ']):
         patent_number = ET.SubElement(patent, "patentNumber")
-        numero_solicitud_limpio = str(fila['Numero de Solicitud ']).replace("\n", " ").strip()
-        create_ns2_text(patent_number, numero_solicitud_limpio)
+        create_ns2_text(patent_number, str(fila['Numero de Solicitud ']).replace("\n", " ").strip())
 
-    # Añadir la fecha de prioridad
+    # Crear el abstract
+    if pd.notna(fila['Descripcion']):
+        abstract = ET.SubElement(patent, "abstract")
+        abstract_text = ET.SubElement(abstract, "ns2:text", {
+            "lang": "es",
+            "country": "CO"
+        })
+        abstract_text.text = fila['Descripcion']
+
+    # Personas asociadas (inventores y principal investigador)
+    persons = ET.SubElement(patent, "persons")
+
+    # Inventores
+    if pd.notna(fila['Inventores/Autores']):
+        inventores = str(fila['Inventores/Autores']).split(",")
+        for inventor in inventores:
+            first_name, last_name = separar_nombres(inventor)
+
+            author = ET.SubElement(persons, "author")
+            person = ET.SubElement(author, "person")
+            ET.SubElement(person, "firstName").text = first_name
+            ET.SubElement(person, "lastName").text = last_name
+
+    # Investigador principal
+    if pd.notna(fila['Investigador Principal']):
+        investigadores = str(fila['Investigador Principal']).split(",")
+        for investigador in investigadores:
+            first_name, last_name = separar_nombres(investigador)
+
+            author = ET.SubElement(persons, "author")
+            person = ET.SubElement(author, "person")
+            ET.SubElement(person, "firstName").text = first_name
+            ET.SubElement(person, "lastName").text = last_name
+
+    # Publicación y fechas
+    publication_statuses = ET.SubElement(patent, "publicationStatuses")
+    publication_status = ET.SubElement(publication_statuses, "publicationStatus")
+    status_type = ET.SubElement(publication_status, "statusType")
+    status_type.text = "published"
+    date = ET.SubElement(publication_status, "date")
+    if pd.notna(fila['Fecha de Solicitud']):
+        fecha = str(fila['Fecha de Solicitud']).split(" ")[0]  # Extraer solo la parte de la fecha sin hora
+        date_parts = fecha.split("-")
+
+        # Verificar si la fecha tiene los 3 componentes necesarios (año, mes, día)
+        if len(date_parts) == 3:
+            year, month, day = date_parts
+            ET.SubElement(date, "ns2:year").text = year
+            ET.SubElement(date, "ns2:month").text = month
+            ET.SubElement(date, "ns2:day").text = day
+        else:
+            # Log para manejar fechas incompletas o malformadas
+            logging.warning(f"Fecha malformada o incompleta en la fila {index + 1}: {fecha}")
+
+    # Idioma
+    language = ET.SubElement(patent, "language")
+    language.text = "es_CO"
+
+    # Prioridad de la patente
     if pd.notna(fila['Fecha de concesion']):
         priority_date = ET.SubElement(patent, "priorityDate")
-        priority_date_text = ET.SubElement(priority_date, "ns2:text")
-        priority_date_text.text = str(fila['Fecha de concesion']).split(" ")[0]
+        create_ns2_text(priority_date, str(fila['Fecha de concesion']).split(" ")[0])
 
 # Aplicar indentación al XML
 indent(root)
